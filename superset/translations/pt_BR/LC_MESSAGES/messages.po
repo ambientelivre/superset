@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-07-30 17:32-0600\n"
-"PO-Revision-Date: 2025-01-22 14:04-0300\n"
+"PO-Revision-Date: 2025-01-23 08:42-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt_BR\n"
@@ -135,9 +135,9 @@ msgstr "para visualizar seus dados."
 msgid "!= (Is not equal)"
 msgstr "!= (diferente)"
 
-#, fuzzy, python-format
+#, python-format
 msgid "% calculation"
-msgstr "cálculo %"
+msgstr "% cálculo"
 
 #, fuzzy, python-format
 msgid "% of parent"
@@ -486,9 +486,8 @@ msgstr "2/98 percentis"
 msgid "22"
 msgstr "22"
 
-#, fuzzy
 msgid "28 days"
-msgstr "28 dias atrás"
+msgstr "28 dias"
 
 msgid "28 days ago"
 msgstr "28 dias atrás"
@@ -500,9 +499,8 @@ msgstr "2D"
 msgid "3 letter code of the country"
 msgstr "todos os dias do mês"
 
-#, fuzzy
 msgid "3 years"
-msgstr "2 anos"
+msgstr "3 anos"
 
 msgid "3 years ago"
 msgstr "3 anos atrás"
@@ -510,18 +508,15 @@ msgstr "3 anos atrás"
 msgid "30 days"
 msgstr "30 dias"
 
-#, fuzzy
 msgid "30 days ago"
-msgstr "28 dias atrás"
+msgstr "30 dias atrás"
 
-#, fuzzy
 msgid "30 minute"
 msgstr "30 minutos"
 
 msgid "30 minutes"
 msgstr "30 minutos"
 
-#, fuzzy
 msgid "30 second"
 msgstr "30 segundos"
 
@@ -4702,9 +4697,8 @@ msgstr "Ocorreu um erro ao salvar conjunto de dados"
 msgid "Error reading Columnar file"
 msgstr "Carregar arquivo colunar"
 
-#, fuzzy
 msgid "Error reading Excel file"
-msgstr "Carregar arquivo Excel"
+msgstr "Erro ao ler arquivo Excel"
 
 #, fuzzy
 msgid "Error saving dataset"
@@ -4774,9 +4768,8 @@ msgstr "Exemplo"
 msgid "Examples"
 msgstr "Exemplos"
 
-#, fuzzy
 msgid "Excel Upload"
-msgstr "Carregar CSV"
+msgstr "Carregar arquivo Excel"
 
 msgid "Excel file format cannot be determined"
 msgstr ""
@@ -5059,9 +5052,8 @@ msgstr "URI de dados não são permitidos."
 msgid "File size exceeds the maximum allowed size."
 msgstr ""
 
-#, fuzzy
 msgid "File upload"
-msgstr "Carregar"
+msgstr "Carregar um arquivo"
 
 msgid "Fill Color"
 msgstr "Cor de preenchimento"
@@ -7931,9 +7923,8 @@ msgstr "Prefixo ou sufixo"
 msgid "Preview"
 msgstr "Pré-visualização"
 
-#, fuzzy
 msgid "Preview uploaded file"
-msgstr "Carregar arquivo Excel"
+msgstr "Visualizar arquivo enviado"
 
 #, python-format
 msgid "Preview: `%s`"
@@ -12040,7 +12031,6 @@ msgstr "Carregar credenciais"
 msgid "Upload Enabled"
 msgstr "Upload habilitado"
 
-#, fuzzy
 msgid "Upload Excel"
 msgstr "Carregar arquivo Excel"
 
@@ -13600,9 +13590,8 @@ msgstr "todos os dias da semana"
 msgid "every hour"
 msgstr "a cada hora"
 
-#, fuzzy
 msgid "every minute"
-msgstr "a cada mês"
+msgstr "a cada minuto"
 
 msgid "every month"
 msgstr "a cada mês"
