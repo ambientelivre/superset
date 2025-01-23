@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-07-30 17:32-0600\n"
-"PO-Revision-Date: 2025-01-23 08:42-0300\n"
+"PO-Revision-Date: 2025-01-23 08:55-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt_BR\n"
@@ -407,9 +407,8 @@ msgstr "1 minuto"
 msgid "1 minutely frequency"
 msgstr "frequência de 1 minuto"
 
-#, fuzzy
 msgid "1 month ago"
-msgstr "mês"
+msgstr "1 mês atrás"
 
 msgid "1 month end frequency"
 msgstr "1 mês de frequência final"
@@ -825,9 +824,8 @@ msgstr "Adicionar relatório"
 msgid "Add Rule"
 msgstr "Fórmula ruim."
 
-#, fuzzy
 msgid "Add Tag"
-msgstr "marca"
+msgstr "Adicionar uma Tag"
 
 msgid "Add a Plugin"
 msgstr "Adicionar um Plugin"
@@ -1546,9 +1544,8 @@ msgstr "Anotações e camadas"
 msgid "Annotations could not be deleted."
 msgstr "Anotações não foram excluídas."
 
-#, fuzzy
 msgid "Any"
-msgstr "dia"
+msgstr "Qualquer"
 
 msgid "Any additional detail to show in the certification tooltip."
 msgstr "Qualquer detalhe adicional a mostrar na dica de ferramenta de certificação."
@@ -2714,9 +2711,8 @@ msgstr ""
 "A cor será sombreada com base no valor normalizado (0% a 100%) de uma determinada célula em relação "
 "às outras células no intervalo seleccionado:"
 
-#, fuzzy
 msgid "Color: "
-msgstr "Cor"
+msgstr "Cor: "
 
 msgid "Colors"
 msgstr "Cores"
@@ -3226,25 +3222,21 @@ msgstr "Símbolo da moeda"
 msgid "Current"
 msgstr "contagem"
 
-#, fuzzy
 msgid "Current day"
-msgstr "Executar consulta"
+msgstr "Dia atual"
 
 #, fuzzy
 msgid "Current month"
 msgstr "Formato do valor"
 
-#, fuzzy
 msgid "Current quarter"
-msgstr "Executar consulta"
+msgstr "Trimestre atual"
 
-#, fuzzy
 msgid "Current week"
-msgstr "Executar consulta"
+msgstr "Semana atual"
 
-#, fuzzy
 msgid "Current year"
-msgstr "Executar consulta"
+msgstr "Ano atual"
 
 #, python-format
 msgid "Currently rendered: %s"
@@ -3733,9 +3725,8 @@ msgstr "Deck.gl - Gráfico de dispersão"
 msgid "Deck.gl - Screen Grid"
 msgstr "Deck.gl - Screen Grid"
 
-#, fuzzy
 msgid "Decrease"
-msgstr "criar"
+msgstr "Diminuir"
 
 #, fuzzy
 msgid "Default Catalog"
@@ -4417,9 +4408,8 @@ msgstr "modo de edição"
 msgid "Edit Table"
 msgstr "Editar Tabela"
 
-#, fuzzy
 msgid "Edit Tag"
-msgstr "Editar log"
+msgstr "Editar Tag"
 
 msgid "Edit annotation"
 msgstr "Editar anotação"
@@ -5264,9 +5254,8 @@ msgstr ""
 "Os dados do formulário não foram encontrados na cache, revertendo para os metadados do conjunto de "
 "dados."
 
-#, fuzzy
 msgid "Format SQL"
-msgstr "Formato D3"
+msgstr "Formato SQL"
 
 msgid ""
 "Format data labels. Use variables: {name}, {value}, {percent}. \\n represents a new line. ECharts "
@@ -5687,9 +5676,8 @@ msgstr "Incluir o nome da série como um eixo"
 msgid "Include time"
 msgstr "Incluir horário"
 
-#, fuzzy
 msgid "Increase"
-msgstr "criar"
+msgstr "Aumentar"
 
 msgid "Index"
 msgstr "Índice"
@@ -6069,9 +6057,8 @@ msgstr "último dia"
 msgid "Last modified"
 msgstr "Última modificação"
 
-#, fuzzy
 msgid "Last month"
-msgstr "mês passado"
+msgstr "Mês passado"
 
 #, fuzzy
 msgid "Last quarter"
@@ -6316,9 +6303,8 @@ msgstr "Escala logarítmica no eixo y primário"
 msgid "Logarithmic scale on secondary y-axis"
 msgstr "Escala logarítmica no eixo y secundário"
 
-#, fuzzy
 msgid "Logarithmic x-axis"
-msgstr "Eixo y logarítmico"
+msgstr "Eixo X logarítmico"
 
 msgid "Logarithmic y-axis"
 msgstr "Eixo y logarítmico"
@@ -6838,9 +6824,8 @@ msgstr "Nome da tabela que existe no banco de dados de origem"
 msgid "Name of the target nodes"
 msgstr "Nome dos nós de destino"
 
-#, fuzzy
 msgid "Name of your tag"
-msgstr "Nome do seu banco de dados"
+msgstr "Nome da sua tag"
 
 msgid "Name your database"
 msgstr "Nome do seu banco de dados"
@@ -6909,9 +6894,8 @@ msgstr "Sem resultados"
 msgid "No Rules yet"
 msgstr "Ainda não há registros"
 
-#, fuzzy
 msgid "No Tags created"
-msgstr "foi criado"
+msgstr "Sem Tags criadas"
 
 msgid "No annotation layers"
 msgstr "Nenhuma camada de anotação"
@@ -7131,9 +7115,8 @@ msgstr "Não atualizado"
 msgid "Nothing triggered"
 msgstr "Nada foi acionado"
 
-#, fuzzy
 msgid "Notification Method"
-msgstr "Método de notificação"
+msgstr "Método de Notificação"
 
 msgid "Notification method"
 msgstr "Método de notificação"
@@ -7239,9 +7222,8 @@ msgstr "Deslocamento"
 msgid "On Grace"
 msgstr "Na Graça"
 
-#, fuzzy
 msgid "On dashboards"
-msgstr "painéis"
+msgstr "Em painéis"
 
 msgid ""
 "One or many columns to group by. High cardinality groupings should include a series limit to limit "
@@ -7535,9 +7517,8 @@ msgstr "Erro de parâmetro"
 msgid "Parameters"
 msgstr "Parâmetros"
 
-#, fuzzy
 msgid "Parameters "
-msgstr "Parâmetros"
+msgstr "Parâmetros "
 
 msgid "Parameters related to the view and perspective on the map"
 msgstr "Parâmetros relacionados com a visão e a perspectiva no mapa"
@@ -8577,12 +8558,11 @@ msgstr "Linhas para Leitura"
 msgid "Rule"
 msgstr "Regra"
 
-#, fuzzy
 msgid "Rule Name"
-msgstr "Nome completo"
+msgstr "Nome da regra"
 
 msgid "Rule added"
-msgstr ""
+msgstr "Regra adicionada"
 
 msgid "Run"
 msgstr "Executar"
@@ -9013,9 +8993,8 @@ msgstr "Selecione ..."
 msgid "Select Delivery Method"
 msgstr "Selecione o método de entrega"
 
-#, fuzzy
 msgid "Select Tags"
-msgstr "Desmarcar tudo"
+msgstr "Selecionar as Tags"
 
 msgid "Select Viz Type"
 msgstr "Selecione o tipo de visualização"
@@ -9026,9 +9005,8 @@ msgstr "Selecione uma coluna"
 msgid "Select a dashboard"
 msgstr "Selecione um painel"
 
-#, fuzzy
 msgid "Select a database"
-msgstr "Excluir banco de dados"
+msgstr "Selecionar um banco de dados"
 
 msgid "Select a database table and create dataset"
 msgstr "Selecione uma tabela de banco de dados e crie um conjunto de dados"
@@ -9092,9 +9070,8 @@ msgstr "Proporções de área de uso"
 msgid "Select all data"
 msgstr "Limpar todos os dados"
 
-#, fuzzy
 msgid "Select all items"
-msgstr "Desmarcar tudo"
+msgstr "Selecionar todos os itens"
 
 msgid "Select any columns for metadata inspection"
 msgstr "Selecionar quaisquer colunas para inspeção de metadados"
@@ -9146,9 +9123,8 @@ msgstr "Selecione um painel"
 msgid "Select dashboards"
 msgstr "Selecione um painel"
 
-#, fuzzy
 msgid "Select database"
-msgstr "Excluir banco de dados"
+msgstr "Selecionar um banco de dados"
 
 msgid "Select database or type to search databases"
 msgstr "Selecione o banco de dados ou o tipo para pesquisar bancos de dados"
@@ -9270,9 +9246,8 @@ msgstr "Selecione um banco de dados para escrever uma consulta"
 msgid "Send as CSV"
 msgstr "Enviar como CSV"
 
-#, fuzzy
 msgid "Send as PDF"
-msgstr "Enviar como PNG"
+msgstr "Enviar como PDF"
 
 msgid "Send as PNG"
 msgstr "Enviar como PNG"
@@ -10050,9 +10025,8 @@ msgstr "Soma dos valores durante o período especificado"
 msgid "Sum values"
 msgstr "Valores da soma"
 
-#, fuzzy
 msgid "Summary"
-msgstr "Domingo"
+msgstr "Sumário"
 
 msgid "Sunburst Chart"
 msgstr "Gráfico Sunburst"
@@ -10195,9 +10169,8 @@ msgstr "Abas"
 msgid "Tabular"
 msgstr "Tabular"
 
-#, fuzzy
 msgid "Tag"
-msgstr "marca"
+msgstr "Tag"
 
 msgid "Tag could not be created."
 msgstr "Não foi possível criar a tag."
@@ -10213,13 +10186,11 @@ msgstr "Não foi possível encontrar o banco de dados"
 msgid "Tag could not be updated."
 msgstr "Não foi possível atualizar o conjunto de dados."
 
-#, fuzzy
 msgid "Tag created"
-msgstr "foi criado"
+msgstr "Tag criada"
 
-#, fuzzy
 msgid "Tag name"
-msgstr "Nome da aba"
+msgstr "Nome da tag"
 
 msgid "Tag name is invalid (cannot contain ':')"
 msgstr "O nome do rótulo é inválido (não pode conter ':')"
@@ -11912,9 +11883,8 @@ msgstr "Erro inesperado"
 msgid "Unexpected error occurred, please check your logs for details"
 msgstr "Ocorreu um erro inesperado, verifique os registros(logs) para obter detalhes"
 
-#, fuzzy
 msgid "Unexpected error: "
-msgstr "Erro inesperado:"
+msgstr "Erro inesperado: "
 
 #, fuzzy
 msgid "Unexpected no file extension found"
@@ -12851,9 +12821,8 @@ msgstr "Margem do título no eixo X"
 msgid "X Axis"
 msgstr "Eixo X"
 
-#, fuzzy
 msgid "X Axis Bounds"
-msgstr "Eixo Y limites"
+msgstr "Limites do eixo X"
 
 msgid "X Axis Format"
 msgstr "Formato do eixo X"
@@ -12922,7 +12891,6 @@ msgstr "Escala logarítmica Y"
 msgid "Y bounds"
 msgstr "Limites Y"
 
-#, fuzzy
 msgid "Y-Axis"
 msgstr "Eixo Y"
 
@@ -13381,9 +13349,8 @@ msgstr "código Comitê Olímpico Internacional (cioc)"
 msgid "color scheme for comparison"
 msgstr "Comparação de tempo"
 
-#, fuzzy
 msgid "color type"
-msgstr "Cor por"
+msgstr "tipo de cor"
 
 msgid "column"
 msgstr "coluna"
@@ -13568,9 +13535,8 @@ msgstr "Selecionar assunto"
 msgid "entries"
 msgstr "entradas"
 
-#, fuzzy
 msgid "error"
-msgstr "Erro"
+msgstr "erro"
 
 msgid "error dark"
 msgstr "erro"
@@ -13698,9 +13664,8 @@ msgstr "média"
 msgid "median"
 msgstr "mediana"
 
-#, fuzzy
 msgid "meters"
-msgstr "Parâmetros"
+msgstr "metros"
 
 msgid "metric"
 msgstr "métrica"
@@ -13726,9 +13691,8 @@ msgstr "mais de {max} {name}"
 msgid "must have a value"
 msgstr "deve ter um valor"
 
-#, fuzzy
 msgid "name"
-msgstr "Nome"
+msgstr "nome"
 
 msgid "no SQL validator is configured"
 msgstr "nenhum validador SQL está configurado"
@@ -13743,9 +13707,8 @@ msgstr "ícone de tipo numérico"
 msgid "nvd3"
 msgstr "nvd3"
 
-#, fuzzy
 msgid "offline"
-msgstr "Offline"
+msgstr "offline"
 
 msgid "on"
 msgstr "em"
@@ -13809,9 +13772,8 @@ msgstr "estado do permalink não encontrado"
 msgid "pixelated (Sharp)"
 msgstr "pixelado (nítido)"
 
-#, fuzzy
 msgid "pixels"
-msgstr "Pixels"
+msgstr "pixels"
 
 msgid "previous calendar month"
 msgstr "mês anterior do calendário"
