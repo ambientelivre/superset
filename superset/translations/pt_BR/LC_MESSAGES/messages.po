@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-07-30 17:32-0600\n"
-"PO-Revision-Date: 2025-01-23 09:00-0300\n"
+"PO-Revision-Date: 2025-01-23 10:37-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt_BR\n"
@@ -820,9 +820,8 @@ msgstr "Adicionar Métrica"
 msgid "Add Report"
 msgstr "Adicionar relatório"
 
-#, fuzzy
 msgid "Add Rule"
-msgstr "Fórmula ruim."
+msgstr "Adicionar regra"
 
 msgid "Add Tag"
 msgstr "Adicionar uma Tag"
@@ -954,7 +953,7 @@ msgstr "Adicionar/Editar filtros"
 msgid "Added"
 msgstr "Adicionado"
 
-#, python-format
+#, fuzzy, python-format
 msgid "Added to 1 dashboard"
 msgid_plural "Added to %s dashboards"
 msgstr[0] "Adicionado a 1 painel"
@@ -4069,16 +4068,14 @@ msgstr "Não foram devolvidas amostras para este conjunto de dados"
 msgid "Discard"
 msgstr "Descartar"
 
-#, fuzzy
 msgid "Display"
-msgstr "Nome de exibição"
+msgstr "Exibir"
 
 msgid "Display Name"
 msgstr "Nome de exibição"
 
-#, fuzzy
 msgid "Display all"
-msgstr "Nome de exibição"
+msgstr "Exibir todos"
 
 #, fuzzy
 msgid "Display column level subtotal"
@@ -4619,9 +4616,8 @@ msgstr "Digite um nome para essa planilha"
 msgid "Enter a new title for the tab"
 msgstr "Digite um novo título para a aba"
 
-#, fuzzy
 msgid "Enter alert name"
-msgstr "Nome do alerta"
+msgstr "Digite o nome do alerta"
 
 msgid "Enter duration in seconds"
 msgstr "Insira a duração em segundos"
@@ -4629,9 +4625,8 @@ msgstr "Insira a duração em segundos"
 msgid "Enter fullscreen"
 msgstr "Entrar em tela cheia"
 
-#, fuzzy
 msgid "Enter report name"
-msgstr "Nome do relatório"
+msgstr "Digite o nome do relatório"
 
 #, python-format
 msgid "Enter the required %(dbModelName)s credentials"
@@ -4845,9 +4840,8 @@ msgstr "Exportar para .JSON"
 msgid "Export to Excel"
 msgstr "Exportar para Excel"
 
-#, fuzzy
 msgid "Export to PDF"
-msgstr "Exportar para YAML"
+msgstr "Exportar para PDF"
 
 #, fuzzy
 msgid "Export to Pivoted .CSV"
@@ -5030,9 +5024,8 @@ msgstr "Campo é obrigatório"
 msgid "File"
 msgstr "Arquivo"
 
-#, fuzzy
 msgid "File Settings"
-msgstr "Configurações de filtro"
+msgstr "Configurações do arquivo"
 
 #, fuzzy
 msgid "File extension is not allowed."
@@ -6070,9 +6063,8 @@ msgstr "Última execução"
 msgid "Last week"
 msgstr "semana passada"
 
-#, fuzzy
 msgid "Last year"
-msgstr "ano passado"
+msgstr "Ano passado"
 
 msgid "Latitude"
 msgstr "Latitude"
@@ -6889,9 +6881,8 @@ msgstr "Sem dados"
 msgid "No Results"
 msgstr "Sem resultados"
 
-#, fuzzy
 msgid "No Rules yet"
-msgstr "Ainda não há registros"
+msgstr "Ainda não há regras"
 
 msgid "No Tags created"
 msgstr "Sem Tags criadas"
@@ -7928,9 +7919,8 @@ msgstr "Chave primária"
 msgid "Primary or secondary y-axis"
 msgstr "Eixo y primário ou secundário"
 
-#, fuzzy
 msgid "Primary y-axis Bounds"
-msgstr "Formato do eixo y primário"
+msgstr "Limites do eixo y primário"
 
 msgid "Primary y-axis format"
 msgstr "Formato do eixo y primário"
@@ -8209,9 +8199,8 @@ msgstr "Atualização de gráficos"
 msgid "Refreshing columns"
 msgstr "Atualização de colunas"
 
-#, fuzzy
 msgid "Regular"
-msgstr "Circular"
+msgstr "Regular"
 
 #, fuzzy
 msgid ""
@@ -8940,9 +8929,8 @@ msgstr "Métrica secundária"
 msgid "Secondary currency format"
 msgstr "Formato do eixo y secundário"
 
-#, fuzzy
 msgid "Secondary y-axis Bounds"
-msgstr "Formato do eixo y secundário"
+msgstr "Limites do eixo y secundário"
 
 msgid "Secondary y-axis format"
 msgstr "Formato do eixo y secundário"
@@ -11660,9 +11648,8 @@ msgstr "Superior direito"
 msgid "Top to Bottom"
 msgstr "De cima para baixo"
 
-#, fuzzy
 msgid "Total"
-msgstr "do total"
+msgstr "Total"
 
 #, python-format
 msgid "Total (%(aggfunc)s)"
@@ -11924,9 +11911,8 @@ msgstr "Erro desconhecido"
 msgid "Unknown input format"
 msgstr "Formato de entrada desconhecido"
 
-#, fuzzy
 msgid "Unknown type"
-msgstr "ícone de tipo desconhecido"
+msgstr "Tipo desconhecido"
 
 msgid "Unknown value"
 msgstr "Valor desconhecido"
@@ -13243,7 +13229,6 @@ msgstr "alerta"
 msgid "alert condition"
 msgstr "Condição de alerta"
 
-#, fuzzy
 msgid "alert dark"
 msgstr "alerta"
 
@@ -13612,9 +13597,8 @@ msgstr "em"
 msgid "in modal"
 msgstr "no modal"
 
-#, fuzzy
 msgid "invalid email"
-msgstr "Chave de permalink inválida"
+msgstr "email inválido"
 
 #, fuzzy
 msgid "is expected to be a Mapbox URL"
@@ -13724,9 +13708,8 @@ msgstr "a coluna orderby deve ser preenchida"
 msgid "overall"
 msgstr "geral"
 
-#, fuzzy
 msgid "owners"
-msgstr "Proprietários"
+msgstr "proprietários"
 
 msgid "p-value precision"
 msgstr "precisão do valor-p"
