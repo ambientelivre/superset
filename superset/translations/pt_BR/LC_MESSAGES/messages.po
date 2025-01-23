@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-07-30 17:32-0600\n"
-"PO-Revision-Date: 2025-01-23 10:37-0300\n"
+"PO-Revision-Date: 2025-01-23 11:41-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt_BR\n"
@@ -57,12 +57,15 @@ msgstr ""
 "Este filtro foi herdado do contexto do painel.\n"
 " Não será salvo ao salvar o gráfico."
 
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "\n"
 "            Error: %(text)s\n"
 "            "
-msgstr "Erro: %(text)s"
+msgstr ""
+"\n"
+"            Erro: %(text)s\n"
+"            "
 
 msgid " (excluded)"
 msgstr " (excluído)"
@@ -1678,9 +1681,8 @@ msgstr "Tem certeza que deseja continuar ?"
 msgid "Are you sure you want to save and apply changes?"
 msgstr "Tem certeza que deseja salvar e aplicar mudanças ?"
 
-#, fuzzy
 msgid "Area"
-msgstr "área de texto"
+msgstr "Área"
 
 msgid "Area Chart"
 msgstr "Gráfico de área"
@@ -2309,11 +2311,11 @@ msgstr "Opções do gráfico"
 msgid "Chart Orientation"
 msgstr "Orientação do gráfico"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Chart Owner: %s"
 msgid_plural "Chart Owners: %s"
 msgstr[0] "Proprietário do gráfico: %s"
-msgstr[1] ""
+msgstr[1] "Proprietários do gráfico: %s"
 
 msgid "Chart Source"
 msgstr "Fonte do gráfico"
@@ -3217,9 +3219,8 @@ msgstr "Prefixo ou sufixo da moeda"
 msgid "Currency symbol"
 msgstr "Símbolo da moeda"
 
-#, fuzzy
 msgid "Current"
-msgstr "contagem"
+msgstr "Atual"
 
 msgid "Current day"
 msgstr "Dia atual"
@@ -3330,7 +3331,7 @@ msgid "DB column %(col_name)s has unknown type: %(value_type)s"
 msgstr "Coluna do banco de dados %(col_name)s tem tipo desconhecido: %(value_type)s"
 
 msgid "DD/MM format dates, international and European format"
-msgstr ""
+msgstr "Datas no formato DD/MM, formato Internacional e Europeu"
 
 msgid "DEC"
 msgstr "DEZ"
@@ -3887,9 +3888,8 @@ msgstr "Excluir modelo"
 msgid "Delete this container and save to remove this message."
 msgstr "Excluir este contêiner e salvar para remover essa mensagem."
 
-#, fuzzy
 msgid "Deleted"
-msgstr "excluir"
+msgstr "Excluído"
 
 #, python-format
 msgid "Deleted %(num)d annotation"
@@ -3915,11 +3915,11 @@ msgid_plural "Deleted %(num)d css templates"
 msgstr[0] "Modelo CSS %(num)d excluído"
 msgstr[1] ""
 
-#, fuzzy, python-format
+#, python-format
 msgid "Deleted %(num)d dashboard"
 msgid_plural "Deleted %(num)d dashboards"
-msgstr[0] "Painel %(num)d excluído"
-msgstr[1] ""
+msgstr[0] "%(num)d painel excluído"
+msgstr[1] "%(num)d painéis excluídos"
 
 #, fuzzy, python-format
 msgid "Deleted %(num)d dataset"
@@ -3945,9 +3945,9 @@ msgid_plural "Deleted %(num)d saved queries"
 msgstr[0] "Excluída %(num)d consulta salva"
 msgstr[1] ""
 
-#, fuzzy, python-format
+#, python-format
 msgid "Deleted %s"
-msgstr "Excluído: %s"
+msgstr "Excluído %s"
 
 #, python-format
 msgid "Deleted: %s"
@@ -5131,9 +5131,8 @@ msgstr ""
 "(chave de grupo = 'região'), a cláusula de filtro aplicaria o filtro (departamento = 'Finanças' OU "
 "departamento = 'Marketing') AND (região = 'Europa')."
 
-#, fuzzy
 msgid "Find"
-msgstr "em"
+msgstr "Encontrar"
 
 msgid "Finish"
 msgstr "Finalizar"
@@ -5430,9 +5429,8 @@ msgstr "Cabeçalho"
 msgid "Header Row"
 msgstr "Linha do Cabeçalho"
 
-#, fuzzy
 msgid "Header row"
-msgstr "Linha do Cabeçalho"
+msgstr "Linha do cabeçalho"
 
 msgid "Heatmap"
 msgstr "Mapa de calor"
@@ -7083,9 +7081,8 @@ msgstr ""
 msgid "Not available"
 msgstr "Não disponível"
 
-#, fuzzy
 msgid "Not defined"
-msgstr "Indefinido"
+msgstr "Não definido"
 
 msgid "Not equal to (≠)"
 msgstr "Diferente de (≠)"
@@ -8539,9 +8536,8 @@ msgstr "Posição do subtotal das linhas"
 msgid "Rows to Read"
 msgstr "Linhas para Leitura"
 
-#, fuzzy
 msgid "Rows to read"
-msgstr "Linhas para Leitura"
+msgstr "Linhas para leitura"
 
 msgid "Rule"
 msgstr "Regra"
