@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-01-28 15:21-0300\n"
-"PO-Revision-Date: 2025-01-29 10:43-0300\n"
+"PO-Revision-Date: 2025-01-29 16:50-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt_BR\n"
@@ -41,6 +41,17 @@ msgid ""
 "doesn't change your\n"
 "                original data, it just changes the way the histogram is displayed."
 msgstr ""
+"\n"
+"                A opção cumulativa permite que você veja como seus dados são "
+"acumulados em diferentes\n"
+"                valores. Quando ativado, as barras do histograma representam o "
+"total acumulado de frequências\n"
+"                até cada caixa. Isso ajuda você a entender a probabilidade de "
+"encontrar valores\n"
+"                abaixo de um certo ponto. Lembre-se de que ativar o cumulativo "
+"não altera seu\n"
+"                dados originais, apenas altera a forma como o histograma é "
+"exibido."
 
 msgid ""
 "\n"
@@ -55,6 +66,17 @@ msgid ""
 "                clearer understanding of the proportion of data points within "
 "each bin."
 msgstr ""
+"\n"
+"                A opção normalizar transforma os valores do histograma em "
+"proporções ou\n"
+"                probabilidades dividindo a contagem de cada compartimento pela "
+"contagem total de pontos de dados.\n"
+"                Este processo de normalização garante que os valores resultantes "
+"somam 1,\n"
+"                permitindo uma comparação relativa da distribuição dos dados e "
+"fornecendo uma\n"
+"                compreensão mais clara da proporção de pontos de dados dentro de "
+"cada compartimento."
 
 msgid ""
 "\n"
@@ -76,16 +98,21 @@ msgid ""
 "            <p><b><a href=\"%(url)s\">%(call_to_action)s</a></b></p>\n"
 "            "
 msgstr ""
+"\n"
+"            <p>Não foi possível gerar seu relatório/alerta devido ao seguinte "
+"erro: %(text)s</p>\n"
+"            <p>Verifique se há erros no painel/gráfico.</p>\n"
+"            <p><b><a href=\"%(url)s\">%(call_to_action)s</a></b></p>\n"
+"             "
 
 msgid " (excluded)"
 msgstr " (excluído)"
 
-#, fuzzy
 msgid ""
 " Set the opacity to 0 if you do not want to override the color specified in the "
 "GeoJSON"
 msgstr ""
-"Defina opacidade a 0 se você não quer sobrepor a cor especificada no GeoJSON"
+" Defina a opacidade como 0 se não quiser substituir a cor especificada no GeoJSON"
 
 msgid " a dashboard OR "
 msgstr " um painel OU "
@@ -98,7 +125,7 @@ msgid " at line %(line)d"
 msgstr " na linha %(line)d"
 
 msgid " expression which needs to adhere to the "
-msgstr " expressão necessária para aderir ao"
+msgstr " expressão necessária para aderir ao "
 
 #, python-format
 msgid " near '%(highlight)s'"
@@ -162,22 +189,22 @@ msgstr "!= (diferente)"
 msgid "% calculation"
 msgstr "% cálculo"
 
-#, fuzzy, python-format
+#, python-format
 msgid "% of parent"
 msgstr "% do pai"
 
-#, fuzzy, python-format
+#, python-format
 msgid "% of total"
-msgstr "% total"
+msgstr "% o total"
 
 #, python-format
 msgid "%(dialect)s cannot be used as a data source for security reasons."
 msgstr ""
 "%(dialect)s não pode ser usado como uma fonte de dados por motivos de segurança."
 
-#, fuzzy, python-format
+#, python-format
 msgid "%(label)s file"
-msgstr "%(type)s do Arquivo"
+msgstr "%(label)s do Arquivo"
 
 #, python-format
 msgid ""
@@ -226,6 +253,8 @@ msgid ""
 "%(report_type)s schedule frequency exceeding limit. Please configure a schedule "
 "with a minimum interval of %(minimum_interval)d minutes per execution."
 msgstr ""
+"Frequência de agendamento de %(report_type)s excedendo o limite. Configure um "
+"agendamento com um intervalo mínimo de %(minimum_interval)d minutos por execução."
 
 #, python-format
 msgid "%(rows)d rows returned"
@@ -241,12 +270,13 @@ msgstr ""
 "Isso pode ser acionado por:\n"
 " %(issue)s"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%(suggestion)s instead of \"%(undefinedParameter)s?\""
 msgid_plural ""
 "%(firstSuggestions)s or %(lastSuggestion)s instead of \"%(undefinedParameter)s\"?"
 msgstr[0] "%(suggestion)s em vez de \"%(undefinedParameter)s?\""
 msgstr[1] ""
+"%(firstSuggestions)s ou %(lastSuggestion)s em vez de \"%(undefinedParameter)s\"?"
 
 #, python-format
 msgid ""
@@ -304,13 +334,15 @@ msgstr "%s coluna(s)"
 
 #, python-format
 msgid "%s ineligible item(s) are hidden"
-msgstr ""
+msgstr "%s itens inelegíveis estão ocultos"
 
 #, python-format
 msgid ""
 "%s items could not be tagged because you don’t have edit permissions to all "
 "selected objects."
 msgstr ""
+"%s itens não puderam ser marcados porque você não tem permissões de edição para "
+"todos os objetos selecionados."
 
 #, python-format
 msgid "%s operator(s)"
@@ -326,7 +358,7 @@ msgstr[1] "%s opções"
 msgid "%s option(s)"
 msgstr "%s opção(ões)"
 
-#, fuzzy, python-format
+#, python-format
 msgid "%s recipients"
 msgstr "%s destinátarios"
 
@@ -364,7 +396,7 @@ msgstr "(sem descrição , clique para ver rastreamento de pilha)"
 msgid "), and they become available in your SQL (example:"
 msgstr "), e eles tornaram-se disponíveis no seu SQL (exemplo:"
 
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "*%(name)s*\n"
 "\n"
@@ -375,11 +407,12 @@ msgid ""
 msgstr ""
 "*%(name)s*\n"
 "\n"
-"%(description)s\n"
+"    %(description)s\n"
 "\n"
-"Erro: %(text)s"
+"    Erro: %(text)s\n"
+"    "
 
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "*%(name)s*\n"
 "\n"
@@ -395,20 +428,20 @@ msgstr ""
 "\n"
 "<%(url) s|Explore no Superset >\n"
 "\n"
-"%(table)s"
+"%(table)s\n"
 
 #, python-format
 msgid "+ %s more"
 msgstr "+ %s mais"
 
-#, fuzzy
 msgid ""
 "-- Note: Unless you save your query, these tabs will NOT persist if you clear "
 "your cookies or change browsers.\n"
 "\n"
 msgstr ""
 "-- Nota: A menos que você salve sua consulta, estes guias NÃO irão persistir se "
-"você limpar seus cookies ou mudar de navegador."
+"você limpar seus cookies ou mudar de navegador.\n"
+"\n"
 
 #, python-format
 msgid "... and %s others"
@@ -649,19 +682,22 @@ msgstr ""
 "permissão para fazer upload."
 
 msgid "A database port is required when connecting via SSH Tunnel."
-msgstr ""
+msgstr "Uma porta de banco de dados é necessária ao conectar via túnel SSH."
 
 msgid "A database with the same name already exists."
 msgstr "Já existe um banco de dados com o mesmo nome."
 
 msgid "A date is required when using custom date shift"
-msgstr ""
+msgstr "É necessária uma data ao usar a mudança de data personalizada"
 
 msgid ""
 "A dictionary with column names and their data types if you need to change the "
 "defaults. Example: {\"user_id\":\"int\"}. Check Python's Pandas library for "
 "supported data types."
 msgstr ""
+"Um dicionário com nomes de colunas e seus tipos de dados, caso você precise "
+"alterar os padrões. Exemplo: {\"user_id\":\"int\"}. Verifique a biblioteca Pandas "
+"do Python para tipos de dados suportados."
 
 msgid ""
 "A full URL pointing to the location of the built plugin (could be hosted on a CDN "
@@ -763,6 +799,12 @@ msgid ""
 "values.\n"
 "          These intermediate values can either be time based or category based."
 msgstr ""
+"Um gráfico em cascata é uma forma de visualização de dados que ajuda na "
+"compreensão\n"
+"          o efeito cumulativo de valores positivos ou negativos introduzidos "
+"sequencialmente.\n"
+"          Esses valores intermediários podem ser baseados no tempo ou na "
+"categoria."
 
 msgid "APPLY"
 msgstr "APLICAR"
@@ -902,23 +944,21 @@ msgstr "Adicionar anotação"
 msgid "Add annotation layer"
 msgstr "Adicionar camada de anotação"
 
-#, fuzzy
 msgid "Add another notification method"
-msgstr "Adicionar método de notificação"
+msgstr "Adicionar outro método de notificação"
 
-#, fuzzy
 msgid "Add calculated columns to dataset in \"Edit datasource\" modal"
 msgstr ""
-"Adicionar colunas calculadas para conjunto de dados em \"Edit datasource\"modal"
+"Adicionar colunas calculadas ao conjunto de dados no modal \"Editar fonte de "
+"dados\""
 
-#, fuzzy
 msgid "Add calculated temporal columns to dataset in \"Edit datasource\" modal"
 msgstr ""
-"Adicionar colunas temporais calculadas para conjunto de dados em \"Edit "
-"datasource\"modal"
+"Adicionar colunas temporais calculadas ao conjunto de dados no modal \"Editar "
+"fonte de dados\""
 
 msgid "Add color for positive/negative change"
-msgstr ""
+msgstr "Adicione cor para alterações positivas/negativas"
 
 msgid "Add cross-filter"
 msgstr "Adicionar filtro cruzado"
@@ -968,9 +1008,8 @@ msgstr "Adicionar item"
 msgid "Add metric"
 msgstr "Adicionar métrica"
 
-#, fuzzy
 msgid "Add metrics to dataset in \"Edit datasource\" modal"
-msgstr "Adicionar Métricas para conjunto de dados em \"Edit datasource\"modal"
+msgstr "Adicionar métricas ao conjunto de dados no modal \"Editar fonte de dados\""
 
 msgid "Add new color formatter"
 msgstr "Adicionar novo formatador de cores"
@@ -1005,7 +1044,7 @@ msgstr "Adicionar ao painel"
 msgid "Added"
 msgstr "Adicionado"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Added to 1 dashboard"
 msgid_plural "Added to %s dashboards"
 msgstr[0] "Adicionado a 1 painel"
@@ -1040,16 +1079,22 @@ msgid ""
 "Adds color to the chart symbols based on the positive or negative change from the "
 "comparison value."
 msgstr ""
+"Adiciona cor aos símbolos do gráfico com base na alteração positiva ou negativa "
+"do valor de comparação."
 
 msgid ""
 "Adjust column settings such as specifying the columns to read, how duplicates are "
 "handled, column data types, and more."
 msgstr ""
+"Ajuste as configurações das colunas, como especificar as colunas a serem lidas, "
+"como as duplicatas são tratadas, os tipos de dados das colunas e muito mais."
 
 msgid ""
 "Adjust how spaces, blank lines, null values are handled and other file wide "
 "settings."
 msgstr ""
+"Ajuste como espaços, linhas em branco, valores nulos são tratados e outras "
+"configurações de todo o arquivo."
 
 msgid "Adjust how this database will interact with SQL Lab."
 msgstr "Ajustar como esse banco de dados vai interagir com SQL Lab."
@@ -1075,9 +1120,8 @@ msgstr "Análise avançada Consulta A"
 msgid "Advanced analytics Query B"
 msgstr "Análise avançada Consulta B"
 
-#, fuzzy
 msgid "Advanced analytics post processing"
-msgstr "Análise avançada"
+msgstr "Pós-processamento analítico avançado"
 
 msgid "Advanced data type"
 msgstr "Tipo de dados avançado"
@@ -1167,7 +1211,7 @@ msgstr "A consulta do alerta retornou um valor não numérico."
 msgid "Alert query returned more than one column."
 msgstr "A consulta do alerta retornou mais de uma coluna."
 
-#, fuzzy, python-format
+#, python-format
 msgid "Alert query returned more than one column. %(num_cols)s columns returned"
 msgstr ""
 "A consulta do alerta retornou mais de uma coluna. %(num_cols)s colunas retornadas"
@@ -1175,7 +1219,7 @@ msgstr ""
 msgid "Alert query returned more than one row."
 msgstr "A consulta do alerta retornou mais do que uma linha."
 
-#, fuzzy, python-format
+#, python-format
 msgid "Alert query returned more than one row. %(num_rows)s rows returned"
 msgstr ""
 "A consulta do alerta retornou mais de uma linha. %(num_rows)s linhas retornadas"
@@ -1247,6 +1291,9 @@ msgid ""
 "Allow column names to be changed to case insensitive format, if supported (e.g. "
 "Oracle, Snowflake)."
 msgstr ""
+"Permitir que os nomes das colunas sejam alterados para um formato que não "
+"diferencia maiúsculas de minúsculas, se houver suporte (por exemplo, Oracle, "
+"Snowflake)."
 
 msgid "Allow columns to be rearranged"
 msgstr "Permitir que as colunas sejam reorganizadas"
@@ -1281,6 +1328,8 @@ msgid ""
 "Allow the execution of DDL (Data Definition Language: CREATE, DROP, TRUNCATE, "
 "etc.) and DML (Data Modification Language: INSERT, UPDATE, DELETE, etc)"
 msgstr ""
+"Permitir a execução de DDL (Data Definition Language: CREATE, DROP, TRUNCATE, "
+"etc.) e DML (Data Modification Language: INSERT, UPDATE, DELETE, etc.)"
 
 msgid "Allow this database to be explored"
 msgstr "Permitir que esse banco de dados seja explorado"
@@ -1314,9 +1363,8 @@ msgstr ""
 msgid "Altered"
 msgstr "Alterado"
 
-#, fuzzy
 msgid "Always filter main datetime column"
-msgstr "Coluna principal de data e hora"
+msgstr "Sempre filtrar a coluna principal de data e hora"
 
 msgid "An Error Occurred"
 msgstr "Ocorreu um erro"
@@ -1680,9 +1728,8 @@ msgstr ""
 msgid "Apply"
 msgstr "Aplicar"
 
-#, fuzzy
 msgid "Apply conditional color formatting to metric"
-msgstr "Aplicar formatação de cor condicional a métricas"
+msgstr "Aplicar formatação de cores condicional à métrica"
 
 msgid "Apply conditional color formatting to metrics"
 msgstr "Aplicar formatação de cor condicional a métricas"
@@ -1800,7 +1847,7 @@ msgid "August"
 msgstr "Agosto"
 
 msgid "Authorization needed"
-msgstr ""
+msgstr "Autorização necessária"
 
 msgid "Auto"
 msgstr "Auto"
@@ -1902,10 +1949,10 @@ msgstr "Altura da base"
 
 #, python-format
 msgid "Base layer map style. See Mapbox documentation: %s"
-msgstr ""
+msgstr "Estilo de mapa da camada base. Consulte a documentação do Mapbox: %s"
 
 msgid "Base slope"
-msgstr ""
+msgstr "Inclinação base"
 
 msgid "Base width"
 msgstr "Largura da base"
@@ -1942,7 +1989,7 @@ msgid "Big Number Font Size"
 msgstr "Tamanho da Fonte do Número Grande"
 
 msgid "Big Number with Time Period Comparison"
-msgstr ""
+msgstr "Número grande com comparação de período de tempo"
 
 msgid "Big Number with Trendline"
 msgstr "Número grande com Trendline"
@@ -2032,6 +2079,9 @@ msgid ""
 "      This can help viewers understand how each category affects the overall "
 "value."
 msgstr ""
+"Divide as séries pela categoria especificada neste controle.\n"
+"      Isso pode ajudar os espectadores a entender como cada categoria afeta o "
+"valor geral."
 
 msgid "Bubble Chart"
 msgstr "Gráfico de bolhas"
@@ -2202,10 +2252,10 @@ msgid "Calculate contribution per series or row"
 msgstr "Calcular a contribuição por série ou linha"
 
 msgid "Calculate from first step"
-msgstr ""
+msgstr "Calcule desde o primeiro passo"
 
 msgid "Calculate from previous step"
-msgstr ""
+msgstr "Calcular a partir do passo anterior"
 
 #, python-format
 msgid "Calculated column [%s] requires an expression"
@@ -2569,9 +2619,8 @@ msgstr "A escolha já existe"
 msgid "Choose chart type"
 msgstr "Escolha o tipo de gráfico"
 
-#, fuzzy
 msgid "Choose columns to be parsed as dates"
-msgstr "Colunas a serem analisadas como datas"
+msgstr "Escolha colunas a serem analisadas como datas"
 
 msgid "Choose columns to read"
 msgstr "Escolha colunas para ler"
@@ -2579,9 +2628,8 @@ msgstr "Escolha colunas para ler"
 msgid "Choose index column"
 msgstr "Escolha a coluna do índice"
 
-#, fuzzy
 msgid "Choose notification method and recipients."
-msgstr "Adicionar método de notificação"
+msgstr "Escolher o método de notificação e os destinatários."
 
 msgid "Choose one of the available databases from the panel on the left."
 msgstr "Escolha um dos bancos de dados disponíveis no painel na esquerda."
@@ -2796,13 +2844,12 @@ msgstr "Cor do local de destino"
 msgid "Color scheme"
 msgstr "Esquema de cores"
 
-#, fuzzy
 msgid ""
 "Color will be shaded based the normalized (0% to 100%) value of a given cell "
 "against the other cells in the selected range: "
 msgstr ""
 "A cor será sombreada com base no valor normalizado (0% a 100%) de uma determinada "
-"célula em relação às outras células no intervalo seleccionado:"
+"célula em relação às outras células no intervalo selecionado: "
 
 msgid "Color: "
 msgstr "Cor: "
@@ -2859,13 +2906,12 @@ msgstr "Coluna referenciado pelo agregado é indefinido: %(column)s"
 msgid "Column select"
 msgstr "Seleção de coluna"
 
-#, fuzzy
 msgid ""
 "Column to use as the index of the dataframe. If None is given, Index label is "
 "used."
 msgstr ""
-"Coluna para utilizar como rótulos de linhas do dataframe. Deixar vazio se não "
-"houver coluna de índice."
+"Coluna a ser usada como índice do dataframe. Se o None for fornecido, o rótulo "
+"Index será usado."
 
 msgid "Column type"
 msgstr "Tipo da coluna"
@@ -2887,7 +2933,6 @@ msgstr "Colunas ausente na fonte de dados: %(invalid_columns)s"
 msgid "Columns subtotal position"
 msgstr "Posição do subtotal das colunas"
 
-#, fuzzy
 msgid "Columns to be parsed as dates"
 msgstr "Colunas a serem analisadas como datas"
 
@@ -2938,7 +2983,7 @@ msgstr ""
 "métricas relacionadas."
 
 msgid "Compare results with other time periods."
-msgstr ""
+msgstr "Compare os resultados com outros períodos de tempo."
 
 msgid "Compare the same summarized metric across multiple groups."
 msgstr "Comparar a mesma métrica resumida em vários grupos."
@@ -3009,7 +3054,7 @@ msgid "Configure the basics of your Annotation Layer."
 msgstr "Configurar o fundamentos da sua camada de anotação."
 
 msgid "Configure the chart size for each zoom level"
-msgstr ""
+msgstr "Configure o tamanho do gráfico para cada nível de zoom"
 
 msgid "Configure this dashboard to embed it into an external web application."
 msgstr "Configurar este painel para incorporá-lo em um aplicativo web externo."
@@ -3168,7 +3213,7 @@ msgstr "Não foi possível carregar o driver de banco de dados: {}"
 
 #, python-format
 msgid "Could not resolve hostname: \"%(host)s\"."
-msgstr ""
+msgstr "Não foi possível resolver o nome do host: \"%(host)s\"."
 
 msgid "Count"
 msgstr "Contar"
@@ -3273,9 +3318,8 @@ msgstr ""
 msgid "Cross-filtering is not enabled for this dashboard."
 msgstr "A filtragem cruzada não está ativada para esse painel."
 
-#, fuzzy
 msgid "Cross-filtering is not enabled in this dashboard"
-msgstr "A filtragem cruzada não está ativada para esse painel."
+msgstr "A filtragem cruzada não está habilitada neste painel"
 
 msgid "Cross-filtering scoping"
 msgstr "Escopo de filtragem cruzada"
@@ -3356,7 +3400,7 @@ msgid "Custom time filter plugin"
 msgstr "Plugin de filtro de tempo personalizado"
 
 msgid "Custom width of the screenshot in pixels"
-msgstr ""
+msgstr "Largura personalizada da captura de tela em pixels"
 
 msgid "Customize"
 msgstr "Personalizar"
@@ -3368,12 +3412,14 @@ msgid ""
 "Customize chart metrics or columns with currency symbols as prefixes or suffixes. "
 "Choose a symbol from dropdown or type your own."
 msgstr ""
+"Personalize métricas ou colunas do gráfico com símbolos de moeda como prefixos ou "
+"sufixos. Escolha um símbolo no menu suspenso ou digite o seu próprio."
 
 msgid "Customize columns"
 msgstr "Personalizar colunas"
 
 msgid "Customize data source, filters, and layout."
-msgstr ""
+msgstr "Personalize fonte de dados, filtros e layout."
 
 msgid "Cyclic dependency detected"
 msgstr "Detectada dependência cíclica"
@@ -3442,7 +3488,7 @@ msgid "Dashboard [{}] just got created and chart [{}] was added to it"
 msgstr "Painel [{}] acabou de ser criado e o gráfico [{}] foi adicionado a ele"
 
 msgid "Dashboard cannot be copied due to invalid parameters."
-msgstr ""
+msgstr "O painel não pode ser copiado devido a parâmetros inválidos."
 
 msgid "Dashboard cannot be favorited."
 msgstr "Não foi possível favoritar o painel."
@@ -3634,7 +3680,7 @@ msgid "Database upload file failed"
 msgstr "Falha no upload do arquivo do banco de dados"
 
 msgid "Database upload file failed, while saving metadata"
-msgstr ""
+msgstr "O arquivo de upload do banco de dados falhou ao salvar os metadados"
 
 msgid "Databases"
 msgstr "Banco de dados"
@@ -3704,6 +3750,10 @@ msgid ""
 "secondary time columns. When this attribute is true, whenever the secondary "
 "columns are filtered, the same filter is applied to the main datetime column."
 msgstr ""
+"Os conjuntos de dados podem ter uma coluna temporal principal (main_dttm_col), "
+"mas também podem ter colunas de tempo secundárias. Quando este atributo for "
+"verdadeiro, sempre que as colunas secundárias forem filtradas, o mesmo filtro "
+"será aplicado à coluna principal de datetime."
 
 msgid "Datasets could not be deleted."
 msgstr "Não foi possível excluir os conjuntos de dados."
@@ -3773,9 +3823,8 @@ msgstr "Dezembro"
 msgid "Decides which column to sort the base axis by."
 msgstr "Decide por qual coluna ordenar o eixo base."
 
-#, fuzzy
 msgid "Decides which measure to sort the base axis by."
-msgstr "Decide por qual coluna ordenar o eixo base."
+msgstr "Decide por qual medida ordenar o eixo base."
 
 msgid "Decimal character"
 msgstr "Caractere decimal"
@@ -3789,9 +3838,8 @@ msgstr "Deck.gl - 3D HEX"
 msgid "Deck.gl - Arc"
 msgstr "Deck.gl - Arc"
 
-#, fuzzy
 msgid "Deck.gl - Contour"
-msgstr "Deck.gl - Arc"
+msgstr "Deck.gl - Contorno"
 
 msgid "Deck.gl - GeoJSON"
 msgstr "Deck.gl - GeoJSON"
@@ -3834,6 +3882,10 @@ msgid ""
 "            Accepts relative URLs such as <span style=„white-space: nowrap;”>/"
 "superset/dashboard/{id}/</span>"
 msgstr ""
+"URL padrão para redirecionar ao acessar a partir da página da lista do conjunto "
+"de dados.\n"
+"            Aceita URLs relativos, como <span style=„white-space: nowrap;”>/"
+"superset/dashboard/{id}/</span>"
 
 msgid "Default Value"
 msgstr "Valor padrão"
@@ -3900,12 +3952,17 @@ msgid ""
 "collection of polygons that fill the are containing values in a given threshold "
 "range."
 msgstr ""
+"Defina camadas de contorno. As isolinhas representam uma coleção de segmentos de "
+"linha que separam a área acima e abaixo de um determinado limite. As isobandas "
+"representam uma coleção de polígonos que preenchem os valores que contêm valores "
+"em um determinado intervalo de limite."
 
 msgid "Define delivery schedule, timezone, and frequency settings."
-msgstr ""
+msgstr "Defina cronograma de entrega, fuso horário e configurações de frequência."
 
 msgid "Define the database, SQL query, and triggering conditions for alert."
 msgstr ""
+"Defina o banco de dados, a consulta SQL e as condições de acionamento do alerta."
 
 msgid ""
 "Defines a rolling window function to apply, works along with the [Periods] text "
@@ -3917,13 +3974,12 @@ msgstr ""
 msgid "Defines the grid size in pixels"
 msgstr "Define o tamanho do grid em pixels"
 
-#, fuzzy
 msgid ""
 "Defines the grouping of entities. Each series is represented by a specific color "
 "in the chart."
 msgstr ""
-"Define o agrupamento de entidades. Cada série é mostrado como uma cor específica "
-"no gráfico e tem uma legenda alternar"
+"Define o agrupamento de entidades. Cada série é representada por uma cor "
+"específica no gráfico."
 
 msgid ""
 "Defines the grouping of entities. Each series is shown as a specific color on the "
@@ -3943,6 +3999,8 @@ msgid ""
 "Defines the value that determines the boundary between different regions or "
 "levels in the data "
 msgstr ""
+"Define o valor que determina o limite entre diferentes regiões ou níveis nos "
+"dados "
 
 msgid ""
 "Defines whether the step should appear at the beginning, middle or end between "
@@ -4012,23 +4070,23 @@ msgid_plural "Deleted %(num)d annotations"
 msgstr[0] "%(num)d Anotação excluída"
 msgstr[1] "%(num)d Anotações excluídas"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Deleted %(num)d annotation layer"
 msgid_plural "Deleted %(num)d annotation layers"
 msgstr[0] "Camada de anotação %(num)d excluída"
-msgstr[1] ""
+msgstr[1] "%(num)d camadas de anotação excluídas"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Deleted %(num)d chart"
 msgid_plural "Deleted %(num)d charts"
 msgstr[0] "Gráfico %(num)d excluído"
-msgstr[1] ""
+msgstr[1] "%(num)d gráficos excluídos"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Deleted %(num)d css template"
 msgid_plural "Deleted %(num)d css templates"
 msgstr[0] "Modelo CSS %(num)d excluído"
-msgstr[1] ""
+msgstr[1] "%(num)d modelos css excluídos"
 
 #, python-format
 msgid "Deleted %(num)d dashboard"
@@ -4036,29 +4094,29 @@ msgid_plural "Deleted %(num)d dashboards"
 msgstr[0] "%(num)d painel excluído"
 msgstr[1] "%(num)d painéis excluídos"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Deleted %(num)d dataset"
 msgid_plural "Deleted %(num)d datasets"
 msgstr[0] "Conjunto de dados %(num)d excluído"
-msgstr[1] ""
+msgstr[1] "%(num)d conjuntos de dados excluídos"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Deleted %(num)d report schedule"
 msgid_plural "Deleted %(num)d report schedules"
 msgstr[0] "%(num)d cronograma de relatório excluído"
-msgstr[1] ""
+msgstr[1] "%(num)d cronogramas de relatório excluídos"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Deleted %(num)d rules"
 msgid_plural "Deleted %(num)d rules"
 msgstr[0] "Gráfico %(num)d excluído"
-msgstr[1] ""
+msgstr[1] "%(num)d regras excluídas"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Deleted %(num)d saved query"
 msgid_plural "Deleted %(num)d saved queries"
 msgstr[0] "Excluída %(num)d consulta salva"
-msgstr[1] ""
+msgstr[1] "%(num)d consultas salvas excluídas"
 
 #, python-format
 msgid "Deleted %s"
@@ -4147,6 +4205,9 @@ msgid ""
 "Use dimensions to categorize, segment, and reveal the details in your data. "
 "Dimensions affect the level of detail in the view."
 msgstr ""
+"As dimensões contêm valores qualitativos, como nomes, datas ou dados geográficos. "
+"Use dimensões para categorizar, segmentar e revelar os detalhes dos seus dados. "
+"As dimensões afetam o nível de detalhe da vista."
 
 msgid "Directed Force Layout"
 msgstr "Directed Force Layout"
@@ -4209,6 +4270,8 @@ msgid ""
 "Display percents in the label and tooltip as the percent of the total value, from "
 "the first step of the funnel, or from the previous step in the funnel."
 msgstr ""
+"Exiba as porcentagens no rótulo e na dica de ferramenta como a porcentagem do "
+"valor total, da primeira etapa do funil ou da etapa anterior do funil."
 
 msgid "Display row level subtotal"
 msgstr "Exibir subtotal em nível de linha"
@@ -4274,6 +4337,8 @@ msgid ""
 "Downloading %(rows)s rows based on the LIMIT configuration. If you want the "
 "entire result set, you need to adjust the LIMIT."
 msgstr ""
+"Fazendo download de %(rows)s linhas com base na configuração LIMITE. Se quiser "
+"todo o conjunto de resultados, você precisa ajustar o LIMITE."
 
 msgid "Draft"
 msgstr "Rascunho"
@@ -4333,6 +4398,8 @@ msgid ""
 "Drill to detail is disabled for this database. Change the database settings to "
 "enable it."
 msgstr ""
+"O detalhamento está desabilitado para este banco de dados. Altere as "
+"configurações do banco de dados para habilitá-lo."
 
 #, python-format
 msgid "Drill to detail: %s"
@@ -4343,11 +4410,10 @@ msgid_plural "Drop columns here or click"
 msgstr[0] "Deixe sua coluna aqui ou clique em"
 msgstr[1] "Deixe suas colunas aqui ou clique em"
 
-#, fuzzy
 msgid "Drop a column/metric here or click"
 msgid_plural "Drop columns/metrics here or click"
 msgstr[0] "Insira uma coluna/métrica aqui ou clique em"
-msgstr[1] ""
+msgstr[1] "Insira colunas/métricas aqui ou clique em"
 
 msgid "Drop a temporal column here or click"
 msgstr "Colocar uma coluna temporal aqui ou clique"
@@ -4612,7 +4678,7 @@ msgid "Email reports active"
 msgstr "Relatórios por e-mail ativo"
 
 msgid "Email subject name (optional)"
-msgstr ""
+msgstr "Nome do assunto do e-mail (opcional)"
 
 msgid "Embed"
 msgstr "Incorporar"
@@ -4686,7 +4752,7 @@ msgid "Enable query cost estimation"
 msgstr "Ativar estimativa de custo de consulta"
 
 msgid "Enable row expansion in schemas"
-msgstr ""
+msgstr "Habilitar expansão de linha em esquemas"
 
 msgid "Enable server side pagination of results (experimental feature)"
 msgstr ""
@@ -4764,7 +4830,7 @@ msgid "Enter the required %(dbModelName)s credentials"
 msgstr "Digite as credenciais %(dbModelName)s necessárias"
 
 msgid "Enter the unique project id for your database."
-msgstr ""
+msgstr "Insira o ID único do projeto para seu banco de dados."
 
 msgid "Entity"
 msgstr "Entidade"
@@ -4882,7 +4948,7 @@ msgid "Examples"
 msgstr "Exemplos"
 
 msgid "Excel file format cannot be determined"
-msgstr ""
+msgstr "O formato do arquivo Excel não pode ser determinado"
 
 msgid "Excel upload"
 msgstr "Carregar arquivo Excel"
@@ -5160,7 +5226,7 @@ msgid "File settings"
 msgstr "Configurações do Arquivo"
 
 msgid "File size exceeds the maximum allowed size."
-msgstr ""
+msgstr "O tamanho do arquivo excede o tamanho máximo permitido."
 
 msgid "File upload"
 msgstr "Carregar um arquivo"
@@ -5238,7 +5304,7 @@ msgid "Filters by metrics"
 msgstr "Filtros por métricas"
 
 msgid "Filters for comparison must have a value"
-msgstr ""
+msgstr "Os filtros para comparação devem ter um valor"
 
 #, python-format
 msgid "Filters out of scope (%d)"
@@ -5320,6 +5386,8 @@ msgid ""
 "For Trino, describe full schemas of nested ROW types, expanding them with dotted "
 "paths"
 msgstr ""
+"Para Trino, descreva esquemas completos de tipos ROW agrupados, expandindo-os com "
+"caminhos pontilhados"
 
 msgid "For further instructions, consult the"
 msgstr "Para mais instruções , consultar o"
@@ -5395,6 +5463,9 @@ msgid ""
 "new line. ECharts compatibility:\n"
 "{a} (series), {b} (name), {c} (value), {d} (percentage)"
 msgstr ""
+"Formate rótulos de dados. Use variáveis: {name}, {value}, {percent}. \\n "
+"representa uma nova linha. Compatibilidade com gráficos eletrônicos:\n"
+"{a} (series), {b} (name), {c} (value), {d} (percentage)"
 
 msgid "Formatted CSV attached in email"
 msgstr "CSV formatado anexado no e-mail"
@@ -5477,9 +5548,8 @@ msgstr "Configurações de GeoJson"
 msgid "Geohash"
 msgstr "Geohash"
 
-#, fuzzy
 msgid "Geometry Column"
-msgstr "Coluna vazia"
+msgstr "Coluna geometria"
 
 msgid "Get the last date by the date unit."
 msgstr "Obter a última data através da unidade de data."
@@ -5488,7 +5558,7 @@ msgid "Get the specify date for the holiday"
 msgstr "Obter a data específica para o feriado"
 
 msgid "Give access to multiple catalogs in a single database connection."
-msgstr ""
+msgstr "Dê acesso a vários catálogos em uma única conexão de banco de dados."
 
 msgid "Go to the edit mode to configure the dashboard and add charts"
 msgstr "Vá ao modo de edição para configurar o painel e adicionar gráficos"
@@ -5518,7 +5588,7 @@ msgid "Greater than (>)"
 msgstr "Maior que (>)"
 
 msgid "Green for increase, red for decrease"
-msgstr ""
+msgstr "Verde para aumentar, vermelho para diminuir"
 
 msgid "Grid"
 msgstr "Grade"
@@ -5542,7 +5612,7 @@ msgid "Groupable"
 msgstr "Agrupável"
 
 msgid "Guest user cannot modify chart payload"
-msgstr ""
+msgstr "O usuário convidado não pode modificar o payload do gráfico"
 
 msgid "HOUR"
 msgstr "HORA"
@@ -5554,7 +5624,7 @@ msgid "Handlebars Template"
 msgstr "Modelo de handlebars"
 
 msgid "Hard value bounds applied for color coding."
-msgstr ""
+msgstr "Limites de valores rígidos aplicados à codificação de cores."
 
 msgid "Has created by"
 msgstr "Foi criado por"
@@ -5646,6 +5716,9 @@ msgid ""
 "main time series and each time shift; as the percentage change; or as the ratio "
 "between series and time shifts."
 msgstr ""
+"Como exibir mudanças de horário: como linhas individuais; como a diferença entre "
+"a série temporal principal e cada mudança de horário; conforme a variação "
+"percentual; ou como a razão entre séries e mudanças de tempo."
 
 msgid "Huge"
 msgstr "Enorme"
@@ -5695,6 +5768,8 @@ msgid ""
 "If enabled, this control sorts the results/values descending, otherwise it sorts "
 "the results ascending."
 msgstr ""
+"Se habilitado, este controle ordena os resultados/valores em ordem decrescente, "
+"caso contrário ordena os resultados em ordem crescente."
 
 msgid "If selected, please set the schemas allowed for csv upload in Extra."
 msgstr ""
@@ -5803,7 +5878,7 @@ msgid "Info"
 msgstr "Informações"
 
 msgid "Inherit range from time filter"
-msgstr ""
+msgstr "Herdar intervalo do filtro de tempo"
 
 msgid "Inner Radius"
 msgstr "Raio interior"
@@ -5812,7 +5887,7 @@ msgid "Inner radius of donut hole"
 msgstr "Raio interior do buraco de rosquinha"
 
 msgid "Input custom width in pixels"
-msgstr ""
+msgstr "Insira a largura personalizada em pixels"
 
 msgid "Input field supports custom rotation. e.g. 30 for 30°"
 msgstr ""
@@ -5822,7 +5897,7 @@ msgid "Insert Layer URL"
 msgstr "Inserir URL da camada"
 
 msgid "Insert Layer title"
-msgstr ""
+msgstr "Inserir título da camada"
 
 msgid "Intensity"
 msgstr "Intensidade"
@@ -5831,10 +5906,10 @@ msgid "Intensity Radius"
 msgstr "Raio de Intensidade"
 
 msgid "Intensity Radius is the radius at which the weight is distributed"
-msgstr ""
+msgstr "Raio de intensidade é o raio no qual o peso é distribuído"
 
 msgid "Intensity is the value multiplied by the weight to obtain the final weight"
-msgstr ""
+msgstr "Intensidade é o valor multiplicado pelo peso para obter o peso final"
 
 msgid "Interval"
 msgstr "Intervalo"
@@ -5854,13 +5929,12 @@ msgstr "Coluna de início do intervalo"
 msgid "Intervals"
 msgstr "Intervalos"
 
-#, fuzzy
 msgid ""
 "Invalid Connection String: Expecting String of the form 'ocient://user:pass@host:"
 "port/database'."
 msgstr ""
-"Cadeia de conexão inválida, uma cadeia válida geralmente é a seguinte: "
-"backend+driver://user:password@database-host/database-name"
+"String de conexão inválida: Esperando string no formato 'ocient://user:pass@host:"
+"port/database'."
 
 msgid "Invalid JSON"
 msgstr "JSON inválido"
@@ -5896,7 +5970,7 @@ msgid "Invalid cumulative operator: %(operator)s"
 msgstr "Operador cumulativo inválido: %(operator)s"
 
 msgid "Invalid currency code in saved metrics"
-msgstr ""
+msgstr "Código de moeda inválido nas métricas salvas"
 
 msgid "Invalid date/timestamp format"
 msgstr "Formato de data/carimbo de data/hora inválido"
@@ -5937,7 +6011,7 @@ msgstr "Chave de permalink inválida"
 
 #, python-format
 msgid "Invalid reference to column: \"%(column)s\""
-msgstr ""
+msgstr "Referência inválida à coluna: \"%(column)s\""
 
 #, python-format
 msgid "Invalid result type: %(result_type)s"
@@ -6077,7 +6151,7 @@ msgid "Key"
 msgstr "Chave"
 
 msgid "Keyboard shortcuts"
-msgstr ""
+msgstr "Atalhos de teclado"
 
 msgid "Keys for table"
 msgstr "Chaves da tabela"
@@ -6107,7 +6181,7 @@ msgid "Label already exists"
 msgstr "O rótulo já existe"
 
 msgid "Label for the index column. Don't use an existing column name."
-msgstr ""
+msgstr "Rótulo da coluna de índice. Não use um nome de coluna existente."
 
 msgid "Label for your query"
 msgstr "Rótulo para sua consulta"
@@ -6306,6 +6380,8 @@ msgid ""
 "Limits the number of the rows that are computed in the query that is the source "
 "of the data used for this chart."
 msgstr ""
+"Limita o número de linhas calculadas na consulta que é a origem dos dados usados ​​"
+"para este gráfico."
 
 msgid "Line"
 msgstr "Linha"
@@ -6328,7 +6404,7 @@ msgstr ""
 "reta. É um tipo básico de gráfico comum em muitos domínios."
 
 msgid "Line charts on a map"
-msgstr ""
+msgstr "Gráficos de linhas em um mapa"
 
 msgid "Line interpolation as defined by d3.js"
 msgstr "Linha interpolação conforme definido por d3.js"
@@ -6460,7 +6536,7 @@ msgid "Lower Threshold"
 msgstr "Limite Inferior"
 
 msgid "Lower threshold must be lower than upper threshold"
-msgstr ""
+msgstr "O limite inferior deve ser inferior ao limite superior"
 
 msgid "MAR"
 msgstr "MAR"
@@ -6488,7 +6564,7 @@ msgstr ""
 "de dados contém dados para o intervalo de tempo selecionado"
 
 msgid "Make the x-axis categorical"
-msgstr ""
+msgstr "Torne o eixo x categórico"
 
 msgid "Malformed request. slice_id or table_name and db_name arguments are expected"
 msgstr ""
@@ -6558,7 +6634,7 @@ msgid "Markup type"
 msgstr "Tipo de marcação"
 
 msgid "Match time shift color with original series"
-msgstr ""
+msgstr "Combine a cor do time shift com a série original"
 
 msgid "Max"
 msgstr "Máx"
@@ -6567,7 +6643,7 @@ msgid "Max Bubble Size"
 msgstr "Tamanho máximo da bolha"
 
 msgid "Max. features"
-msgstr ""
+msgstr "Máx. características"
 
 msgid "Maximum"
 msgstr "Máximo"
@@ -6579,7 +6655,7 @@ msgid "Maximum Radius"
 msgstr "Raio Máximo"
 
 msgid "Maximum number of features to fetch from service"
-msgstr ""
+msgstr "Número máximo de recursos a serem obtidos do serviço"
 
 msgid ""
 "Maximum radius size of the circle, in pixels. As the zoom level changes, this "
@@ -6622,10 +6698,10 @@ msgid "Medium"
 msgstr "Médio"
 
 msgid "Memory in bytes - binary (1024B => 1KiB)"
-msgstr ""
+msgstr "Memória em bytes - binária (1024B => 1KiB)"
 
 msgid "Memory in bytes - decimal (1024B => 1.024kB)"
-msgstr ""
+msgstr "Memória em bytes - decimal (1024B => 1,024kB)"
 
 msgid "Menu actions trigger"
 msgstr "Acionador de ações do menu"
@@ -6654,7 +6730,7 @@ msgstr "Chave métrica"
 
 #, python-format
 msgid "Metric ``%(metric_name)s`` not found in %(dataset_name)s."
-msgstr ""
+msgstr "Métrica ``%(metric_name)s`` não encontrada em %(dataset_name)s."
 
 msgid "Metric ascending"
 msgstr "Métrica crescente"
@@ -6669,7 +6745,7 @@ msgid "Metric change in value from `since` to `until`"
 msgstr "Alteração do valor da métrica de `desde` a `até`"
 
 msgid "Metric currency"
-msgstr ""
+msgstr "Métrica da Moeda"
 
 msgid "Metric descending"
 msgstr "Métrica decrescente"
@@ -7067,7 +7143,7 @@ msgid "No description available."
 msgstr "Nenhuma descrição disponível."
 
 msgid "No entities have this tag currently assigned"
-msgstr ""
+msgstr "Nenhuma entidade tem esta tag atribuída atualmente"
 
 msgid "No filter"
 msgstr "Sem filtro"
@@ -7206,7 +7282,7 @@ msgid "Not added to any dashboard"
 msgstr "Não adicionado a nenhum painel"
 
 msgid "Not all required fields are complete. Please provide the following:"
-msgstr ""
+msgstr "Nem todos os campos obrigatórios estão preenchidos. Forneça o seguinte:"
 
 msgid "Not available"
 msgstr "Não disponível"
@@ -7290,6 +7366,8 @@ msgid ""
 "Number of periods to compare against. You can use negative numbers to compare "
 "from the beginning of the time range."
 msgstr ""
+"Número de períodos para comparar. Você pode usar números negativos para comparar "
+"desde o início do intervalo de tempo."
 
 msgid "Number of periods to ratio against"
 msgstr "Número de períodos para razão contra"
@@ -7437,6 +7515,7 @@ msgstr "Opacidade do gráfico de área."
 
 msgid "Opacity of bubbles, 0 means completely transparent, 1 means opaque"
 msgstr ""
+"Opacidade das bolhas, 0 significa completamente transparente, 1 significa opaco"
 
 msgid "Opacity, expects values between 0 and 100"
 msgstr "Opacidade, espera valores entre 0 e 100"
@@ -7504,6 +7583,9 @@ msgid ""
 "series or row limit is reached, this determines what data are truncated. If "
 "undefined, defaults to the first metric (where appropriate)."
 msgstr ""
+"Ordena o resultado da consulta que gera os dados de origem para este gráfico. Se "
+"um limite de série ou linha for atingido, isso determinará quais dados serão "
+"truncados. Se indefinido, o padrão é a primeira métrica (quando apropriado)."
 
 msgid "Orientation"
 msgstr "Orientação"
@@ -7532,9 +7614,8 @@ msgstr "Ortogonal"
 msgid "Other"
 msgstr "Outro"
 
-#, fuzzy
 msgid "Other color palettes"
-msgstr "A cor do número \"steps\""
+msgstr "Outras paletas de cores"
 
 msgid "Outdoors"
 msgstr "Ao ar livre"
@@ -7724,7 +7805,7 @@ msgid "Percentage change"
 msgstr "Variação percentual"
 
 msgid "Percentage difference between the time periods"
-msgstr ""
+msgstr "Diferença percentual entre os períodos de tempo"
 
 msgid "Percentage metrics"
 msgstr "Métricas de porcentagem"
@@ -7806,7 +7887,7 @@ msgid "Pie Chart"
 msgstr "Gráfico de pizza"
 
 msgid "Pie charts on a map"
-msgstr ""
+msgstr "Gráficos de pizza em um mapa"
 
 msgid "Pie shape"
 msgstr "Formato de torta"
@@ -7886,7 +7967,7 @@ msgid "Please enter a SQLAlchemy URI to test"
 msgstr "Por favor insira um URI SQLAlchemy para teste"
 
 msgid "Please enter valid text. Spaces alone are not permitted."
-msgstr ""
+msgstr "Insira um texto válido. Espaços sozinhos não são permitidos."
 
 msgid "Please re-enter the password."
 msgstr "Por favor digite a senha novamente."
@@ -7894,11 +7975,10 @@ msgstr "Por favor digite a senha novamente."
 msgid "Please re-export your file and try importing again"
 msgstr "Por favor reexportar seu arquivo e tente importar novamente"
 
-#, fuzzy
 msgid "Please reach out to the Chart Owner for assistance."
 msgid_plural "Please reach out to the Chart Owners for assistance."
 msgstr[0] "Entre em contato com o proprietário do gráfico para obter ajuda."
-msgstr[1] ""
+msgstr[1] "Entre em contato com os proprietários do gráfico para obter assistência."
 
 msgid "Please save the query to enable sharing"
 msgstr "Por favor salvar a consulta para habilitar compartilhamento"
@@ -7921,6 +8001,7 @@ msgstr ""
 msgid ""
 "Please specify the Dataset ID for the ``%(name)s`` metric in the Jinja macro."
 msgstr ""
+"Especifique o ID do conjunto de dados para a métrica ``%(name)s`` na macro Jinja."
 
 msgid "Please use 3 different metric labels"
 msgstr "Por favor, use 3 diferentes rótulos de métrica"
@@ -8075,7 +8156,7 @@ msgid "Primary y-axis format"
 msgstr "Formato do eixo y primário"
 
 msgid "Private Channels (Bot in channel)"
-msgstr ""
+msgstr "Canais Privados (Bot no canal)"
 
 msgid "Private Key"
 msgstr "Chave privada"
@@ -8118,6 +8199,7 @@ msgstr "Colocar rótulos no exterior"
 
 msgid "Put positive values and valid minute and second value less than 60"
 msgstr ""
+"Coloque valores positivos e valores válidos de minuto e segundo menores que 60"
 
 msgid "Put some positive value greater than 0"
 msgstr "Coloque algum valor positivo maior que 0"
@@ -8279,10 +8361,10 @@ msgid "Rectangle"
 msgstr "Retângulo"
 
 msgid "Recurring (every)"
-msgstr ""
+msgstr "Recorrente (todos)"
 
 msgid "Red for increase, green for decrease"
-msgstr ""
+msgstr "Vermelho para aumentar, verde para diminuir"
 
 msgid "Redirects to this endpoint when clicking on the table from the table list"
 msgstr ""
@@ -8400,12 +8482,14 @@ msgid "Render HTML"
 msgstr "Renderizar HTML"
 
 msgid "Render columns in HTML format"
-msgstr ""
+msgstr "Renderizar colunas em formato HTML"
 
 msgid ""
 "Renders table cells as HTML when applicable. For example, HTML &lt;a&gt; tags "
 "will be rendered as hyperlinks."
 msgstr ""
+"Renderiza células da tabela como HTML quando aplicável. Por exemplo, HTML &lt;"
+"a&gt; tags serão renderizadas como hiperlinks."
 
 msgid "Replace"
 msgstr "Substituir"
@@ -8431,9 +8515,8 @@ msgstr "A execução do Report Schedule falhou ao gerar um arquivo csv."
 msgid "Report Schedule execution failed when generating a dataframe."
 msgstr "A execução do Report Schedule falhou ao gerar um dataframe."
 
-#, fuzzy
 msgid "Report Schedule execution failed when generating a pdf."
-msgstr "A execução do Report Schedule falhou ao gerar um arquivo csv."
+msgstr "A execução do agendamento do relatório falhou ao gerar um pdf."
 
 msgid "Report Schedule execution failed when generating a screenshot."
 msgstr "A execução do agendamento do relatório falhou ao gerar uma captura de tela."
@@ -9005,11 +9088,11 @@ msgid "Scoping"
 msgstr "Escopo"
 
 msgid "Screenshot width"
-msgstr ""
+msgstr "Largura da captura de tela"
 
 #, python-format
 msgid "Screenshot width must be between %(min)spx and %(max)spx"
-msgstr ""
+msgstr "A largura da captura de tela deve estar entre %(min)spx e %(max)spx"
 
 msgid "Scroll"
 msgstr "Rolagem"
@@ -9157,6 +9240,8 @@ msgid ""
 "Select a metric to display. You can use an aggregation function on a column or "
 "write custom SQL to create a metric."
 msgstr ""
+"Selecione uma métrica para exibir. Você pode usar uma função de agregação em uma "
+"coluna ou escrever SQL personalizado para criar uma métrica."
 
 msgid "Select a schema"
 msgstr "Selecionar um esquema"
@@ -9174,6 +9259,8 @@ msgid ""
 "Select a time grain for the visualization. The grain is the time interval "
 "represented by a single point on the chart."
 msgstr ""
+"Selecione um intervalo de tempo para a visualização. A granulação é o intervalo "
+"de tempo representado por um único ponto no gráfico."
 
 msgid "Select a visualization type"
 msgstr "Selecione um tipo de visualização"
@@ -9211,6 +9298,8 @@ msgstr "Selecionar coluna"
 msgid ""
 "Select columns that will be displayed in the table. You can multiselect columns."
 msgstr ""
+"Selecione as colunas que serão exibidas na tabela. Você pode selecionar colunas "
+"múltiplas."
 
 msgid "Select content type"
 msgstr "Selecione o tipo de conteúdo"
@@ -9233,14 +9322,13 @@ msgstr "Selecionar um banco de dados"
 msgid "Select database or type to search databases"
 msgstr "Selecione o banco de dados ou o tipo para pesquisar bancos de dados"
 
-#, fuzzy
 msgid ""
 "Select databases require additional fields to be completed in the Advanced tab to "
 "successfully connect the database. Learn what requirements your databases has "
 msgstr ""
-"Alguns bancos de dados exigem o preenchimento de campos adicionais na guia "
-"Avançado para que a conexão com o banco de dados seja bem-sucedida. Saiba quais "
-"são os requisitos de seus bancos de dados"
+"Bancos de dados selecionados exigem que campos adicionais sejam preenchidos na "
+"guia Avançado para conectar o banco de dados com êxito. Saiba quais são os "
+"requisitos dos seus bancos de dados "
 
 msgid "Select dataset source"
 msgstr "Selecione a fonte do conjunto de dados"
@@ -9266,11 +9354,17 @@ msgid ""
 "limit. You can use an aggregation function on a column or write custom SQL to "
 "create a percentage metric."
 msgstr ""
+"Selecione uma ou mais métricas para exibir, que serão exibidas nas porcentagens "
+"do total. As métricas percentuais serão calculadas somente a partir de dados "
+"dentro do limite de linhas. Você pode usar uma função de agregação em uma coluna "
+"ou escrever SQL personalizado para criar uma métrica percentual."
 
 msgid ""
 "Select one or many metrics to display. You can use an aggregation function on a "
 "column or write custom SQL to create a metric."
 msgstr ""
+"Selecione uma ou mais métricas para exibir. Você pode usar uma função de "
+"agregação em uma coluna ou escrever SQL personalizado para criar uma métrica."
 
 msgid "Select operator"
 msgstr "Selecionar operador"
@@ -9310,6 +9404,10 @@ msgid ""
 "size. \"LINEAR\" increases sizes linearly based on specified slope. \"EXP\" "
 "increases sizes exponentially based on specified exponent"
 msgstr ""
+"Selecione a forma para calcular valores. \"FIXED\" define todos os níveis de zoom "
+"para o mesmo tamanho. \"LINEAR\" aumenta os tamanhos linearmente com base na "
+"inclinação especificada. \"EXP\" aumenta os tamanhos exponencialmente com base no "
+"expoente especificado"
 
 msgid "Select subject"
 msgstr "Selecionar assunto"
@@ -9330,12 +9428,21 @@ msgid ""
 "cross-filters to all charts that use the same dataset or contain the same column "
 "name in the dashboard."
 msgstr ""
+"Selecione os gráficos aos quais deseja aplicar filtros cruzados neste painel. "
+"Desmarcar um gráfico excluirá sua filtragem ao aplicar filtros cruzados de "
+"qualquer gráfico no painel. Você pode selecionar \"Todos os gráficos\" para "
+"aplicar filtros cruzados a todos os gráficos que usam o mesmo conjunto de dados "
+"ou contêm o mesmo nome de coluna no painel."
 
 msgid ""
 "Select the charts to which you want to apply cross-filters when interacting with "
 "this chart. You can select \"All charts\" to apply filters to all charts that use "
 "the same dataset or contain the same column name in the dashboard."
 msgstr ""
+"Selecione os gráficos aos quais deseja aplicar filtros cruzados ao interagir com "
+"este gráfico. Você pode selecionar \"Todos os gráficos\" para aplicar filtros a "
+"todos os gráficos que usam o mesmo conjunto de dados ou contêm o mesmo nome de "
+"coluna no painel."
 
 msgid "Select the geojson column"
 msgstr "Selecione a coluna geojson"
@@ -9412,13 +9519,13 @@ msgid "Set filter mapping"
 msgstr "Definir o mapeamento de filtros"
 
 msgid "Set header rows and the number of rows to read or skip."
-msgstr ""
+msgstr "Defina linhas de cabeçalho e o número de linhas a serem lidas ou ignoradas."
 
 msgid "Set up an email report"
 msgstr "Configurar um relatório de e-mail"
 
 msgid "Set up basic details, such as name and description."
-msgstr ""
+msgstr "Configure detalhes básicos, como nome e descrição."
 
 msgid ""
 "Sets the hierarchy levels of the chart. Each level is\n"
@@ -9785,6 +9892,8 @@ msgid ""
 "Something went wrong with embedded authentication. Check the dev console for "
 "details."
 msgstr ""
+"Algo deu errado com a autenticação incorporada. Verifique o console de "
+"desenvolvimento para obter detalhes."
 
 msgid "Something went wrong."
 msgstr "Algo não correu bem."
@@ -9794,9 +9903,8 @@ msgid "Sorry there was an error fetching database information: %s"
 msgstr ""
 "Lamentamos, mas ocorreu um erro ao obter as informações do banco de dados: %s"
 
-#, fuzzy
 msgid "Sorry there was an error fetching saved charts: "
-msgstr "Desculpe, houve um erro ao procurar gráficos salvos:"
+msgstr "Desculpe, houve um erro ao procurar gráficos salvos: "
 
 msgid "Sorry, An error occurred"
 msgstr "Desculpe, ocorreu um erro"
@@ -10163,10 +10271,10 @@ msgstr ""
 "opções de personalização."
 
 msgid "Switch to the next tab"
-msgstr ""
+msgstr "Mudar para a próxima guia"
 
 msgid "Switch to the previous tab"
-msgstr ""
+msgstr "Mudar para a guia anterior"
 
 msgid "Symbol"
 msgstr "Símbolo"
@@ -10186,6 +10294,7 @@ msgstr "Sintaxe"
 #, python-format
 msgid "Syntax Error: %(qualifier)s input \"%(input)s\" expecting \"%(expected)s"
 msgstr ""
+"Erro de sintaxe: %(qualifier)s digita \"%(input)s\" esperando \"%(expected)s"
 
 msgid "TABLES"
 msgstr "TABELAS"
@@ -10231,6 +10340,8 @@ msgid ""
 "Table already exists. You can change your 'if table already exists' strategy to "
 "append or replace or provide a different Table Name to use."
 msgstr ""
+"A tabela já existe. Você pode alterar sua estratégia 'se a tabela já existir' "
+"para anexar ou substituir ou fornecer um nome de tabela diferente para usar."
 
 msgid "Table cache timeout"
 msgstr "Tempo limite do cache da tabela"
@@ -10394,6 +10505,13 @@ msgid ""
 "representation of\n"
 "          value distribution and transformation."
 msgstr ""
+"O gráfico Sankey rastreia visualmente o movimento e a transformação de valores "
+"entre\n"
+"          etapas do sistema. Os Nodes representam estágios, conectados por links "
+"que representam o fluxo de valor. Node\n"
+"          altura corresponde à métrica visualizada, fornecendo uma representação "
+"clara de\n"
+"          distribuição e transformação de valor."
 
 msgid "The URL is missing the dataset_id or slice_id parameters."
 msgstr "O URL não tem os parâmetros dataset_id ou slice_id."
@@ -10416,9 +10534,8 @@ msgstr "A anotação foi salva"
 msgid "The annotation has been updated"
 msgstr "A anotação foi atualizada"
 
-#, fuzzy
 msgid "The background color of the charts."
-msgstr "Adicione o nome do gráfico"
+msgstr "A cor de fundo dos gráficos."
 
 msgid ""
 "The category of source nodes used to assign colors. If a node is associated with "
@@ -10485,19 +10602,19 @@ msgid "The column header label"
 msgstr "O rótulo do cabeçalho da coluna"
 
 msgid "The column to be used as the source of the edge."
-msgstr ""
+msgstr "A coluna a ser usada como origem da aresta."
 
 msgid "The column to be used as the target of the edge."
-msgstr ""
+msgstr "A coluna a ser usada como alvo da aresta."
 
 msgid "The column was deleted or renamed in the database."
 msgstr "A coluna foi excluída ou renomeada no banco de dados."
 
 msgid "The configuration for the map layers"
-msgstr ""
+msgstr "A configuração para as camadas do mapa"
 
 msgid "The corner radius of the chart background"
-msgstr ""
+msgstr "O raio do canto do plano de fundo do gráfico"
 
 msgid ""
 "The country code standard that Superset should expect to find in the [country] "
@@ -10562,9 +10679,11 @@ msgstr "O conjunto de dados associado a este gráfico já não existe"
 
 msgid "The dataset column/metric that returns the values on your chart's x-axis."
 msgstr ""
+"A coluna/métrica do conjunto de dados que retorna os valores no eixo x do gráfico."
 
 msgid "The dataset column/metric that returns the values on your chart's y-axis."
 msgstr ""
+"A coluna/métrica do conjunto de dados que retorna os valores no eixo y do gráfico."
 
 msgid ""
 "The dataset configuration exposed here\n"
@@ -10592,10 +10711,10 @@ msgid "The datasource is too large to query."
 msgstr "A fonte de dados é muito grande para ser consultada."
 
 msgid "The default catalog that should be used for the connection."
-msgstr ""
+msgstr "O catálogo padrão que deve ser usado para a conexão."
 
 msgid "The default schema that should be used for the connection."
-msgstr ""
+msgstr "O esquema padrão que deve ser usado para a conexão."
 
 msgid ""
 "The description can be displayed as widget headers in the dashboard view. "
@@ -10623,19 +10742,23 @@ msgstr "O objeto engine_params é descompactado na chamada sqlalchemy.create_eng
 
 msgid "The exponent to compute all sizes from. \"EXP\" only"
 msgstr ""
+"O expoente a partir do qual todos os tamanhos são calculados. Somente \"EXP\""
 
 msgid ""
 "The extent of the map on application start. FIT DATA automatically sets the "
 "extent so that all data points are included in the viewport. CUSTOM allows users "
 "to define the extent manually."
 msgstr ""
+"A extensão do mapa no início do aplicativo. FIT DATA define automaticamente a "
+"extensão para que todos os pontos de dados sejam incluídos na janela de "
+"visualização. CUSTOM permite que os usuários definam a extensão manualmente."
 
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "The following entries in `series_columns` are missing in `columns`: %(columns)s. "
 msgstr ""
 "As seguintes entradas em `series_columns` estão faltando em `columns`: "
-"%(columns)s."
+"%(columns)s. "
 
 #, python-format
 msgid ""
@@ -10644,12 +10767,17 @@ msgid ""
 "the dashboard\n"
 "                    from rendering: %s"
 msgstr ""
+"Os filtros a seguir têm a opção 'Selecionar o primeiro valor do filtro por "
+"padrão'\n"
+"                    opção marcada e não pôde ser carregada, o que está impedindo "
+"o painel\n"
+"                    da renderização: %s"
 
 msgid "The function to use when aggregating points into groups"
 msgstr "A função para usar quando agregar pontos em grupos"
 
 msgid "The height of the current zoom level to compute all heights from"
-msgstr ""
+msgstr "A altura do nível de zoom atual para calcular todas as alturas"
 
 msgid ""
 "The histogram chart displays the distribution of a dataset by\n"
@@ -10659,6 +10787,12 @@ msgid ""
 "provides\n"
 "          insights into its shape, central tendency, and spread."
 msgstr ""
+"O gráfico de histograma exibe a distribuição de um conjunto de dados por\n"
+"          representando a frequência ou contagem de valores dentro de diferentes "
+"intervalos ou compartimentos.\n"
+"          Ajuda a visualizar padrões, clusters e valores discrepantes nos dados e "
+"fornece\n"
+"          insights sobre sua forma, tendência central e dispersão."
 
 #, python-format
 msgid "The host \"%(hostname)s\" might be down and can't be reached."
@@ -10701,7 +10835,7 @@ msgstr ""
 "exploração'"
 
 msgid "The lower limit of the threshold range of the Isoband"
-msgstr ""
+msgstr "O limite inferior da faixa de alcance da isobanda"
 
 msgid ""
 "The maximum number of subdivisions of each group; lower values are pruned first"
@@ -10752,7 +10886,7 @@ msgid "The name of the geometry column"
 msgstr "O nome da coluna geométrica"
 
 msgid "The name of the layer as described in GetCapabilities"
-msgstr ""
+msgstr "O nome da camada conforme descrito em GetCapabilities"
 
 msgid "The name of the rule must be unique"
 msgstr "O nome da regra deve ser exclusivo"
@@ -10817,11 +10951,11 @@ msgstr "O número de segundos antes da expiração da cache"
 msgid "The object does not exist in the given database."
 msgstr "O objeto não existe no banco de dados fornecido."
 
-#, fuzzy, python-format
+#, python-format
 msgid "The parameter %(parameters)s in your query is undefined."
 msgid_plural "The following parameters in your query are undefined: %(parameters)s."
 msgstr[0] "O parâmetro %(parameters)s em sua consulta é indefinido."
-msgstr[1] ""
+msgstr[1] "Os parâmetros em sua consulta são indefinidos: %(parameters)s."
 
 #, python-format
 msgid "The password provided for username \"%(username)s\" is incorrect."
@@ -10920,9 +11054,8 @@ msgstr "O número da porta é inválido."
 msgid "The primary metric is used to define the arc segment sizes"
 msgstr "A métrica primária é usada para definir os tamanhos dos segmentos de arco"
 
-#, fuzzy
 msgid "The provided table was not found in the provided database"
-msgstr "A tabela foi excluída ou renomeada no banco de dados."
+msgstr "A tabela fornecida não foi encontrada no banco de dados fornecido"
 
 msgid "The query associated with the results was deleted."
 msgstr "A consulta associada aos resultados foi excluída."
@@ -10987,9 +11120,11 @@ msgid ""
 "The result of this query must be a value capable of numeric interpretation e.g. "
 "1, 1.0, or \"1\" (compatible with Python's float() function)."
 msgstr ""
+"O resultado desta consulta deve ser um valor capaz de interpretação numérica, por "
+"ex. 1, 1.0 ou \"1\" (compatível com a função float() do Python)."
 
 msgid "The result size exceeds the allowed limit."
-msgstr ""
+msgstr "O tamanho do resultado excede o limite permitido."
 
 msgid "The results backend no longer has the data from the query."
 msgstr "O backend de resultados não tem mais os dados da consulta."
@@ -11009,6 +11144,8 @@ msgstr ""
 msgid ""
 "The row limit set for the chart was reached. The chart may show partial data."
 msgstr ""
+"O limite de linhas definido para o gráfico foi atingido. O gráfico pode mostrar "
+"dados parciais."
 
 #, python-format
 msgid ""
@@ -11027,19 +11164,20 @@ msgstr ""
 "executar essa consulta."
 
 msgid "The schema of the submitted payload is invalid."
-msgstr ""
+msgstr "O esquema do payload é inválido."
 
 msgid "The schema was deleted or renamed in the database."
 msgstr "O esquema foi excluído ou renomeado no banco de dados."
 
 msgid "The screenshot could not be downloaded. Please, try again later."
 msgstr ""
+"A captura de tela não pôde ser baixada. Por favor, tente novamente mais tarde."
 
 msgid "The screenshot has been downloaded."
 msgstr "A captura de tela foi baixada."
 
 msgid "The screenshot is being generated. Please, do not leave the page."
-msgstr ""
+msgstr "A captura de tela está sendo gerada. Por favor, não saia da página."
 
 msgid "The service url of the layer"
 msgstr "O URL de serviço da camada"
@@ -11052,6 +11190,7 @@ msgstr "O tamanho da célula quadrada, em pixels"
 
 msgid "The slope to compute all sizes from. \"LINEAR\" only"
 msgstr ""
+"A inclinação a partir da qual calcular todos os tamanhos. Somente \"LINEAR\""
 
 msgid "The submitted payload failed validation."
 msgstr "O payload enviado falhou na validação."
@@ -11158,13 +11297,13 @@ msgid "The unit of measure for the specified point radius"
 msgstr "A unidade de medida do raio do ponto especificado"
 
 msgid "The upper limit of the threshold range of the Isoband"
-msgstr ""
+msgstr "O limite superior da faixa de alcance da isobanda"
 
 msgid "The user seems to have been deleted"
 msgstr "O usuário parece ter sido excluído"
 
 msgid "The user/password combination is not valid (Incorrect password for user)."
-msgstr ""
+msgstr "A combinação usuário/senha não é válida (senha incorreta para usuário)."
 
 #, python-format
 msgid "The username \"%(username)s\" does not exist."
@@ -11186,7 +11325,7 @@ msgid "The width of the Isoline in pixels"
 msgstr "A largura da isolinha em pixels"
 
 msgid "The width of the current zoom level to compute all widths from"
-msgstr ""
+msgstr "A largura do nível de zoom atual para calcular todas as larguras"
 
 msgid "The width of the lines"
 msgstr "A largura das linhas"
@@ -11262,9 +11401,8 @@ msgstr "Ocorreu um erro ao carregar os esquemas"
 msgid "There was an error loading the tables"
 msgstr "Ocorreu um erro ao carregar as tabelas"
 
-#, fuzzy
 msgid "There was an error retrieving dashboard tabs."
-msgstr "Desculpe, houve um erro ao salvar este painel: %s"
+msgstr "Ocorreu um erro ao recuperar as guias do painel."
 
 #, python-format
 msgid "There was an error saving the favorite status: %s"
@@ -11436,6 +11574,14 @@ msgid ""
 "explicitly set the timezone per the ISO 8601 format if specifying either the "
 "start and/or end time."
 msgstr ""
+"Este controle filtra todo o gráfico com base no intervalo de tempo selecionado. "
+"Todos os tempos relativos, por ex. \"Último mês\", \"Últimos 7 dias\", \"agora\", "
+"etc. são avaliados no servidor usando a hora local do servidor (sem fuso "
+"horário). Todas as dicas de ferramentas e horários de espaço reservado são "
+"expressos em UTC (sem fuso horário). Os carimbos de data/hora são então avaliados "
+"pelo banco de dados usando o fuso horário local do mecanismo. Observe que é "
+"possível definir explicitamente o fuso horário de acordo com o formato ISO 8601 "
+"se especificar o horário de início e/ou término."
 
 msgid ""
 "This controls whether the \"time_range\" field from the current\n"
@@ -11501,6 +11647,9 @@ msgid ""
 "confirm it is a read-only query. Please contact your administrator for more "
 "assistance."
 msgstr ""
+"Este banco de dados não permite DDL/DML, e a consulta não pôde ser analisada para "
+"confirmar se é somente leitura. Por favor, entre em contato com o administrador "
+"para mais assistência."
 
 msgid "This database is managed externally, and can't be edited in Superset"
 msgstr ""
@@ -11526,11 +11675,15 @@ msgid ""
 "This field is used as a unique identifier to attach the calculated dimension to "
 "charts. It is also used as the alias in the SQL query."
 msgstr ""
+"Este campo é usado como um identificador único para associar a dimensão calculada "
+"aos gráficos. Ele também é utilizado como alias na consulta SQL."
 
 msgid ""
 "This field is used as a unique identifier to attach the metric to charts. It is "
 "also used as the alias in the SQL query."
 msgstr ""
+"Este campo é usado como um identificador único para associar a métrica aos "
+"gráficos. Ele também é utilizado como alias na consulta SQL."
 
 msgid ""
 "This fields acts a Superset view, meaning that Superset will run a query against "
@@ -11580,12 +11733,14 @@ msgid "This metric might be incompatible with current dataset"
 msgstr "Essa métrica pode ser incompatível com o conjunto de dados atual"
 
 msgid "This option has been disabled by the administrator."
-msgstr ""
+msgstr "Esta opção foi desabilitada pelo administrador."
 
 msgid ""
 "This page is intended to be embedded in an iframe, but it looks like that is not "
 "the case."
 msgstr ""
+"Esta página foi projetada para ser incorporada em um iframe, mas parece que não é "
+"o caso."
 
 msgid ""
 "This section allows you to configure how to use the slice\n"
@@ -11635,17 +11790,19 @@ msgstr "Esse tipo de visualização não oferece suporte à filtragem cruzada."
 msgid "This visualization type is not supported."
 msgstr "Não há suporte para esse tipo de visualização."
 
-#, fuzzy
 msgid "This was triggered by:"
 msgid_plural "This may be triggered by:"
 msgstr[0] "Isso foi desencadeado por:"
-msgstr[1] ""
+msgstr[1] "Isso pode ser desencadeado por:"
 
 msgid ""
 "This will be applied to the whole table. Arrows (↑ and ↓) will be added to main "
 "columns for increase and decrease. Basic conditional formatting can be "
 "overwritten by conditional formatting below."
 msgstr ""
+"Isso será aplicado a toda a tabela. Setas (↑ e ↓) serão adicionadas às colunas "
+"principais para aumentar e diminuir. A formatação condicional básica pode ser "
+"substituída pela formatação condicional abaixo."
 
 msgid "This will remove your current embed configuration."
 msgstr "Isso removerá sua configuração de incorporação atual."
@@ -11906,7 +12063,7 @@ msgid "Transpose pivot"
 msgstr "Transpor pivô"
 
 msgid "Treat values as categorical."
-msgstr ""
+msgstr "Trate os valores como categóricos."
 
 msgid "Tree Chart"
 msgstr "Gráfico de árvore"
@@ -12017,7 +12174,7 @@ msgid "URL slug"
 msgstr "Slug de URL"
 
 msgid "Unable to calculate such a date delta"
-msgstr ""
+msgstr "Não é possível calcular esse delta de data"
 
 #, python-format
 msgid "Unable to connect to catalog named \"%(catalog_name)s\"."
@@ -12043,10 +12200,10 @@ msgid "Unable to create chart without a query id."
 msgstr "Não é possível criar um gráfico sem um ID de consulta."
 
 msgid "Unable to decode value"
-msgstr ""
+msgstr "Não foi possível decodificar o valor"
 
 msgid "Unable to encode value"
-msgstr ""
+msgstr "Não foi possível codificar o valor"
 
 #, python-format
 msgid "Unable to find such a holiday: [%(holiday)s]"
@@ -12086,7 +12243,7 @@ msgstr ""
 "persistir."
 
 msgid "Unable to parse SQL"
-msgstr ""
+msgstr "Não é possível analisar SQL"
 
 msgid "Unable to retrieve dashboard colors"
 msgstr "Não foi possível recuperar as cores do painel"
@@ -12238,7 +12395,7 @@ msgstr "Carregar um arquivo no banco de dados."
 
 #, python-format
 msgid "Upload a file with a valid extension. Valid: [%s]"
-msgstr ""
+msgstr "Carregue um arquivo com uma extensão válida. Válido: [%s]"
 
 msgid "Upload file to database"
 msgstr "Carregar arquivo no banco de dados"
@@ -12370,6 +12527,8 @@ msgstr ""
 msgid ""
 "Uses Gaussian Kernel Density Estimation to visualize spatial distribution of data"
 msgstr ""
+"Usa estimativa de densidade de Kernel Gaussiano para visualizar a distribuição "
+"espacial de dados"
 
 msgid ""
 "Uses a gauge to showcase progress of a metric towards a target. The position of "
@@ -12407,10 +12566,10 @@ msgstr "Limites de valor"
 
 #, python-format
 msgid "Value cannot exceed %s"
-msgstr ""
+msgstr "O valor não pode exceder %s"
 
 msgid "Value difference between the time periods"
-msgstr ""
+msgstr "Diferença de valor entre os períodos de tempo"
 
 msgid "Value format"
 msgstr "Formato do valor"
@@ -12733,7 +12892,7 @@ msgstr "Semanas %s"
 msgid "Weight"
 msgstr "Peso"
 
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "We’re having trouble loading these results. Queries are set to timeout after %s "
 "second."
@@ -12744,8 +12903,10 @@ msgstr[0] ""
 "Estamos tendo problemas para carregar esses resultados. As consultas estão "
 "definidas para atingir o tempo limite após %s segundos."
 msgstr[1] ""
+"Estamos tendo problemas para carregar esses resultados. As consultas estão "
+"definidas para atingir o tempo limite após %s segundos."
 
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "We’re having trouble loading this visualization. Queries are set to timeout after "
 "%s second."
@@ -12756,6 +12917,8 @@ msgstr[0] ""
 "Estamos tendo problemas para carregar essa visualização. As consultas estão "
 "definidas para atingir o tempo limite após %s segundos."
 msgstr[1] ""
+"Estamos tendo problemas para carregar essa visualização. As consultas estão "
+"definidas para atingir o tempo limite após %s segundos."
 
 msgid "What should be shown as the label"
 msgstr "O que deve ser mostrado como rótulo"
@@ -12812,11 +12975,15 @@ msgid ""
 "When the secondary temporal columns are filtered, apply the same filter to the "
 "main datetime column."
 msgstr ""
+"Quando as colunas temporais secundárias forem filtradas, aplique o mesmo filtro à "
+"coluna principal de data e hora."
 
 msgid ""
 "When unchecked, colors from the selected color scheme will be used for time "
 "shifted series"
 msgstr ""
+"Quando desmarcado, as cores do esquema de cores selecionado serão usadas para "
+"séries com mudança de tempo"
 
 msgid ""
 "When using \"Autocomplete filters\", this can be used to improve performance of "
@@ -12842,6 +13009,8 @@ msgid ""
 "When using this option, default value can’t be set. Using this option may impact "
 "the load times for your dashboard."
 msgstr ""
+"Ao usar esta opção, o valor padrão não pode ser definido. Usar esta opção pode "
+"afetar o tempo de carregamento do seu painel."
 
 msgid "Whether the progress bar overlaps when there are multiple groups of data"
 msgstr "Se a barra de progresso se sobrepõe quando há vários grupos de dados"
@@ -13521,10 +13690,11 @@ msgstr "Propriedade `operation` do objeto de pós-processamento indefinida"
 msgid "`prophet` package not installed"
 msgstr "Pacote `prophet` não instalado"
 
-#, fuzzy
 msgid ""
 "`rename_columns` must have the same length as `columns` + `time_shift_columns`."
-msgstr "`rename_columns` deve ter o mesmo comprimento que `columns`."
+msgstr ""
+"`rename_columns` deve ter o mesmo comprimento que `columns` + "
+"`time_shift_columns`."
 
 msgid "`row_limit` must be greater than or equal to 0"
 msgstr "O `row_limit` deve ser maior ou igual a 0"
@@ -13719,9 +13889,8 @@ msgstr "deck.gl Hexágono 3D"
 msgid "deck.gl Arc"
 msgstr "deck.gl Arc"
 
-#, fuzzy
 msgid "deck.gl Contour"
-msgstr "deck.gl Arc"
+msgstr "deck.gl Contorno"
 
 msgid "deck.gl Geojson"
 msgstr "deck.gl Geojson"
@@ -13906,15 +14075,15 @@ msgstr "espera-se que seja um número"
 msgid "is expected to be an integer"
 msgstr "espera-se que seja um inteiro"
 
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "is linked to %s charts that appear on %s dashboards and users have %s SQL Lab "
 "tabs using this database open. Are you sure you want to continue? Deleting the "
 "database will break those objects."
 msgstr ""
-"A base de dados %s está vinculada a %s gráficos que aparecem em %s painéis, e os "
-"usuários têm %s abas do SQL Lab abertas usando essa base de dados. Vocêtem "
-"certeza de que quer continuar? Deletar a base de dados quebrará essesobjetos."
+"está vinculado a %s gráficos que aparecem nos painéis de %s e os usuários têm as "
+"guias do SQL Lab do %s usando esse banco de dados abertas. Tem certeza de que "
+"deseja continuar? Excluir o banco de dados quebrará esses objetos."
 
 #, python-format
 msgid ""
